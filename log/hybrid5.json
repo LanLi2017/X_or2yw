@@ -1,0 +1,40 @@
+{
+    "id": 1591902466488,
+    "description": "Create new column group based on column Identifier by filling 4 rows with grel:if(value>5000,'admin','user')",
+    "time": "2020-06-11T19:01:11Z",
+    "operation": {
+        "op": "core/column-addition",
+        "description": "Create column group at index 2 based on column Identifier using expression grel:if(value>5000,'admin','user')",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "newColumnName": "group",
+        "columnInsertIndex": 2,
+        "baseColumnName": "Identifier",
+        "expression": "grel:if(value>5000,'admin','user')",
+        "onError": "set-to-blank"
+    },
+    "op": "ColumnAdditionChange",
+    "columnName": "group",
+    "columnIndex": "2",
+    "newCellIndex": "4",
+    "newCellCount": "4",
+    "(0, 4)": {
+        "old": null,
+        "new": "{\"v\":\"user\"}"
+    },
+    "(1, 4)": {
+        "old": null,
+        "new": "{\"v\":\"user\"}"
+    },
+    "(2, 4)": {
+        "old": null,
+        "new": "{\"v\":\"admin\"}"
+    },
+    "(3, 4)": {
+        "old": null,
+        "new": "{\"v\":\"admin\"}"
+    },
+    "oldColumnGroupCount": "0"
+}

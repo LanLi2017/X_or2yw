@@ -1,0 +1,46 @@
+{
+    "id": 1591902621963,
+    "description": "Text transform on 4 cells in column Identifier: value.toNumber()",
+    "time": "2020-06-11T18:58:52Z",
+    "operation": {
+        "op": "core/text-transform",
+        "description": "Text transform on cells in column Identifier using expression value.toNumber()",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Identifier",
+        "expression": "value.toNumber()",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10
+    },
+    "op": "MassCellChange",
+    "commonColumnName": "Identifier",
+    "updateRowContextDependencies": "true",
+    "cellChangeCount": "4",
+    "(0, 1)": {
+        "row": "0",
+        "cell": "1",
+        "old": "{\"v\":\" 2070\"}",
+        "new": "{\"v\":2070}"
+    },
+    "(1, 1)": {
+        "row": "1",
+        "cell": "1",
+        "old": "{\"v\":\" 4081\"}",
+        "new": "{\"v\":4081}"
+    },
+    "(2, 1)": {
+        "row": "2",
+        "cell": "1",
+        "old": "{\"v\":\" 9346\"}",
+        "new": "{\"v\":9346}"
+    },
+    "(3, 1)": {
+        "row": "3",
+        "cell": "1",
+        "old": "{\"v\":\" 5079\"}",
+        "new": "{\"v\":5079}"
+    }
+}
