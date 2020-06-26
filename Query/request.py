@@ -43,19 +43,24 @@ def main():
         filename = filep.split('/')[-1]
         with open(infile) as f:
             data = json.load(f)
-            for key, value in data.items():
-                if key == str((row, column)):
-                    # return choice: 1. operations 2. cell changes
-                    if return_command == 'changes':
+
+            # return choice: 1. operations 2. cell changes
+            if return_command == 'changes':
+                for key, value in data.items():
+                    if key == str((row, column)):
                         old_value = getvalue(value['old'])
                         olddict = {old_value: (row, column)}
                         new_value = getvalue(value['new'])
                         newdict = {new_value: (row, column)}
                         res.append((filename, olddict, newdict))
-                    elif return_command == 'operations':
+            elif return_command == 'operations':
+                try:
+                    if args.column == int(data['cellindex']):
                         ops = data['operation']
                         # innerdicts = json.loads(ops)
-                        res.append(ops['expression'])
+                        res.append(ops['op'])
+                except:
+                    pass
 
     # output = f'result/{args.out}'
     log_folder = 'result/'

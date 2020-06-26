@@ -15,6 +15,7 @@
         "repeat": false,
         "repeatCount": 10
     },
+    "cellindex": 1,
     "op": "MassCellChange",
     "commonColumnName": "Identifier",
     "updateRowContextDependencies": "true",

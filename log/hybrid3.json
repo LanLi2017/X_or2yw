@@ -15,6 +15,7 @@
         "repeat": false,
         "repeatCount": 10
     },
+    "cellindex": 2,
     "op": "MassCellChange",
     "commonColumnName": "First name",
     "updateRowContextDependencies": "true",

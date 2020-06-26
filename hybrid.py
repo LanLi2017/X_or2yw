@@ -30,8 +30,13 @@ def pair_recipe_history(rootPath, path, log):
     # start = 0
     # end = 0
     file = dict()
+    colindx = []
     while idx < len(data):
         line = data[idx]
+        if re.match(r'^columnCount=\d+$', line):
+            columncount = int(line.rsplit('=',1)[1])
+            colindx = data[idx+1: idx+1+columncount]
+
         if re.match(r'^pastEntryCount=\d+$', line):
             pastEntryCount = int(line.rsplit('=',1)[1])
             jsonfiles = data[idx+1: idx+1+pastEntryCount]
@@ -39,6 +44,17 @@ def pair_recipe_history(rootPath, path, log):
             for jsonfile in jsonfiles:
                 index +=1
                 file = json.loads(jsonfile)
+                try:
+                    colname = file['operation']['columnName']
+
+                except:
+                    colname = file['operation']['newColumnName']
+                else:
+                    pass
+                for d in colindx:
+                    colmodel = json.loads(d)
+                    if colmodel['name'] == colname:
+                        file.update({'cellindex': colmodel['cellIndex']})
                 # pairing
                 historyid = file['id']
                 historypath = f'{rootPath}/history/{historyid}.change/change.txt'
@@ -66,6 +82,7 @@ def extract_history(history_path):
 
 
 def main():
+
     # args: root path
     args = Options.get_args()
 

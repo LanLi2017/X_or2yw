@@ -15,6 +15,7 @@
         "repeat": false,
         "repeatCount": 10
     },
+    "cellindex": 3,
     "op": "MassCellChange",
     "commonColumnName": "Last name",
     "updateRowContextDependencies": "true",

@@ -15,6 +15,7 @@
         "expression": "grel:if(value>5000,'admin','user')",
         "onError": "set-to-blank"
     },
+    "cellindex": 4,
     "op": "ColumnAdditionChange",
     "columnName": "group",
     "columnIndex": "2",
