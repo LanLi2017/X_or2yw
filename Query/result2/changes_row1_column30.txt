@@ -1,0 +1,1 @@
+[('hybrid1', {None: (1, 30)}, {None: (1, 30)}), ('hybrid3', {'old': '', 'new': None}), ('hybrid4', {None: (1, 30)}, {'Lincoln Park Oasis  Unit 2 ONLY': (1, 30)})]

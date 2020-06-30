@@ -30,12 +30,12 @@ def pair_recipe_history(rootPath, path, log):
     # start = 0
     # end = 0
     file = dict()
-    colindx = []
+    # colindx = []
     while idx < len(data):
         line = data[idx]
-        if re.match(r'^columnCount=\d+$', line):
-            columncount = int(line.rsplit('=',1)[1])
-            colindx = data[idx+1: idx+1+columncount]
+        # if re.match(r'^columnCount=\d+$', line):
+        #     columncount = int(line.rsplit('=',1)[1])
+        #     colindx = data[idx+1: idx+1+columncount]
 
         if re.match(r'^pastEntryCount=\d+$', line):
             pastEntryCount = int(line.rsplit('=',1)[1])
@@ -44,17 +44,28 @@ def pair_recipe_history(rootPath, path, log):
             for jsonfile in jsonfiles:
                 index +=1
                 file = json.loads(jsonfile)
-                try:
-                    colname = file['operation']['columnName']
-
-                except:
-                    colname = file['operation']['newColumnName']
-                else:
-                    pass
-                for d in colindx:
-                    colmodel = json.loads(d)
-                    if colmodel['name'] == colname:
-                        file.update({'cellindex': colmodel['cellIndex']})
+                # try:
+                #     colname = file['operation']['columnName']
+                #
+                # except:
+                #     colname = file['operation']['newColumnName']
+                # else:
+                #     pass
+                # for d in colindx:
+                    # colmodel = json.loads(d)
+                # file['oldColumn']['cellIndex']
+                # operation = file['operation']
+                # if operation['op'] == 'core/column-removal':
+                    # oldCol = json.loads(file['oldColumn'])
+                    # cellIndex = int(oldCol['cellIndex'])
+                    # file.update({'cellindex': cellIndex})
+                    # index should be captured in change.txt
+                #     pass
+                # else:
+                #     for d in colindx:
+                #         colmodel = json.loads(d)
+                #         if colmodel['name'] == colname:
+                #             file.update({'cellindex': colmodel['cellIndex']})
                 # pairing
                 historyid = file['id']
                 historypath = f'{rootPath}/history/{historyid}.change/change.txt'
@@ -66,6 +77,7 @@ def pair_recipe_history(rootPath, path, log):
                 head, top, content = data[0], data[1:top_count + 1], data[top_count + 1:]
                 op = func_map[opname](top, content)
                 file.update(op)
+
                 prov_path = f'{log}/hybrid{index}.json'
                 with open(prov_path, "w") as fout:
                     json.dump(file, fout, indent=4)

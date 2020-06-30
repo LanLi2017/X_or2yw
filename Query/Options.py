@@ -29,10 +29,10 @@ def get_args():
         default= 'changes',
         help = 'return the cell changes: '
     )
-    # parser.add_argument(
-    #     "--out",
-    #     type=str,
-    #     default='hybrid1.json',
-    #     help='output hybrid provenance file name'
-    # )
+    parser.add_argument(
+        "--out",
+        type=str,
+        default='result',
+        help='output folder'
+    )
     return parser.parse_args()

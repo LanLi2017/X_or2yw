@@ -1,0 +1,32 @@
+{
+    "id": 1593537058285,
+    "description": "Remove column Last name",
+    "time": "2020-06-30T16:58:10Z",
+    "operation": {
+        "op": "core/column-removal",
+        "description": "Remove column Last name",
+        "columnName": "Last name"
+    },
+    "op": "ColumnRemovalChange",
+    "oldColumnIndex": "4",
+    "oldColumn": "{\"cellIndex\":3,\"originalName\":\"Last name\",\"name\":\"Last name\",\"type\":\"string\",\"format\":\"\",\"title\":\"\",\"description\":\"\",\"constraints\":\"{}\"}",
+    "cellindex": 3,
+    "oldCellCount": "4",
+    "(0, 3)": {
+        "old": "{\"v\":\" GREY\"}",
+        "new": null
+    },
+    "(1, 3)": {
+        "old": "{\"v\":\" JOHNSON\"}",
+        "new": null
+    },
+    "(2, 3)": {
+        "old": "{\"v\":\" JENKINS\"}",
+        "new": null
+    },
+    "(3, 3)": {
+        "old": "{\"v\":\" SMITH\"}",
+        "new": null
+    },
+    "oldColumnGroupCount": "0"
+}

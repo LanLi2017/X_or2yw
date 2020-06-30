@@ -1,0 +1,1207 @@
+3.1
+com.google.refine.model.changes.ColumnAdditionChange
+columnName=newname
+columnIndex=4
+newCellIndex=30
+newCellCount=1199
+0;{"v":"Hyde Park  Walk to UChicago/Theological Seminary"}
+1;{"v":"Lincoln Park Oasis  Unit 2 ONLY"}
+3;{"v":"Barbara's Hideaway  Old Town"}
+10;{"v":"Private Apt 1 Block to Fullerton L Red Line  Deck"}
+14;{"v":"Andersonville  Perfect location!"}
+16;{"v":"2 Bedroom 1 Block to Fullerton L  Garage Avail"}
+35;{"v":"ALONZO:Artfilled Flat in the Ukrainian Village"}
+37;{"v":"Room w/private bath kid friendly"}
+39;{"v":"Urban Oasis"}
+41;{"v":"1 Bedroom Apartment Noble Square"}
+46;{"v":"BROWN ROOM W/PRIVATE BATHWALK TO TRAIN"}
+56;{"v":"Family Style Homewalk to Aragon/Riviera"}
+69;{"v":"Historic Chicago Home  Hyde Park"}
+72;{"v":"Lincoln Park Oasis  Unit 1 ONLY"}
+78;{"v":"Spacious + Convenient Logan Square Onebed Apt"}
+79;{"v":"*Wicker Park*2 units*Sleeps 618*By train/downtown"}
+81;{"v":"Luxury Space  Come & Relax"}
+93;{"v":"Dropdead fab on the Lake2bd/2bth"}
+105;{"v":"Premium CondoGold Coast"}
+119;{"v":"Palmer Treehouse  Bedroom 2"}
+120;{"v":"Logan SquareChicago Prime Location"}
+132;{"v":"Apt. for 4  15 minutes from Loop!"}
+134;{"v":"Lincoln Square 2 Bedroom Condo  Welles Park View"}
+138;{"v":"Lincoln Park Apt  1 Bedroom plus alcove & futon"}
+145;{"v":"Modern LoftStyle Pad in Wicker!"}
+152;{"v":"FamilyFriendly 3"}
+159;{"v":"MidCentury mdn twnhs in Lakview"}
+171;{"v":"Wicker Park  Urban Homestead!"}
+176;{"v":"Urban Oasis"}
+180;{"v":"Charming Andersonville 1BR  Yours"}
+183;{"v":"Queen Bed Room  Wrigley Hostel"}
+189;{"v":"Eclectic Lincoln Square 2Bedroom"}
+207;{"v":"Magic Factory Lofts Not your typical Airbnb"}
+210;{"v":"Comfy Northside Chicago Apt  Holiday Rates!"}
+216;{"v":"Park ViewsWalk to Orange Line(MDW)"}
+219;{"v":"Cozy 2BR Apt  Humboldt Park"}
+238;{"v":"Studio in Old Town Chicagoclose to everything"}
+240;{"v":"Lincoln Park/DePaul Private room & bath"}
+247;{"v":"Bucktown  Great Northside Location"}
+256;{"v":"Awesome Room & View  Lincoln Park"}
+257;{"v":"MidCentury Townhouse in Lakeview"}
+272;{"v":"Nordicish Room in Sunny Condo close to Downtown!"}
+273;{"v":"Gorgeous views,skyhigh style!"}
+275;{"v":"4 Bed Private Room  Wrigley Hostel"}
+276;{"v":"10 Bed Shared Room  Wrigley Hostel"}
+277;{"v":"6 Bed Shared Dorm  Wrigley Hostel"}
+278;{"v":"2 Bed Private Dorm  Wrigley Hostel"}
+279;{"v":"8 Bed Shared Dorm  Wrigley Hostel"}
+288;{"v":"Cozy GardenSubterranean Apartment"}
+302;{"v":"Cozy SingleFamily Home near University of Chicago"}
+303;{"v":"Spacious 3 Bedroom steps to train!"}
+304;{"v":"Lincoln Park Loft at the Zoo  2 bedrooms/2bath"}
+310;{"v":"Grand Vintage Lincoln Park Penthouse  2 Bedrooms."}
+311;{"v":"Modern Loft Right by McCormick LUX  KING SIZE BED"}
+319;{"v":"#54Home away from home"}
+325;{"v":"Private Room (blue)Avondale near blueline CTA"}
+335;{"v":"Art Collector's Pieda'"}
+345;{"v":"Beautiful, large, lightfilled 1Bd"}
+350;{"v":"North Wayne Flat Close to Lake, Edgewater, Loyola"}
+352;{"v":"Pride Perfect BoystownPVT KG Bed/Roscoe Halsted"}
+353;{"v":"Relax in the Sauna at an Eclectic LoftStyle Home"}
+358;{"v":"Private ROOM (pink)Avondale near blueline CTA"}
+360;{"v":"Chicago duplexperfect for groups!"}
+366;{"v":"2BR, 2"}
+372;{"v":"Wells St Suites  Old Town 3 Bed"}
+374;{"v":"LUXURY URBAN LOFT  PILSEN"}
+376;{"v":"#55Clean,Great area. free parking, 24h check in."}
+378;{"v":"Brewers & Redsvs Cubs Wrigleyville  3 bdrms"}
+382;{"v":"2Bedroom Apartment with Patio"}
+384;{"v":"The Comfy  Cozy place"}
+385;{"v":"Bill Murray Suite in Trendy Hood! NEW Minifridge!"}
+398;{"v":"NEW ULTRA LUXURY MODERN Studio RIVERNORTH LUXURY"}
+409;{"v":"Pride Perfect/BoystownPVT"}
+410;{"v":"Charming \"Home Away from Home\"  We Welcome \"ALL\"!"}
+418;{"v":"Simple BudgetFriendly Basement Apartment"}
+419;{"v":"Vintage DreamPRIVATE"}
+421;{"v":"Chic and Modern  Best Location!"}
+425;{"v":"Andersonville 1bdrm, private bath!"}
+426;{"v":"Highrise ???cottage??? Condo & balcony in Loop"}
+432;{"v":"Spacious Luxury Townhouse  Old Town"}
+436;{"v":"Wellappointed 1+ Br Bucktown Apt, baby"}
+444;{"v":"1 A Hyde Park Coop Living"}
+447;{"v":"Private 1br 1ba  Boystown/Wrigleyville"}
+489;{"v":"01a. Queen bed in Coed Space  3 mi from NWU"}
+498;{"v":"MidCentury Modern Gem in Bronzeville"}
+508;{"v":"Hip MidCentury 1 Bedroom + 1 Bath in Logan Square"}
+509;{"v":"Old Town, 2B/3B 4level townhouse"}
+510;{"v":"UPTOWN ROW HOUSESPACIOUS PRIVATE SHARED ROOM(S)"}
+513;{"v":"Wow 4 Room CondoWalk to Wrigley "}
+515;{"v":"#42 loyola U, Northwest U. Beach"}
+516;{"v":"#53Private double"}
+517;{"v":"Lovely Gold Coast Condo, Jawdropping Lake Views"}
+520;{"v":"Bucktown  Private Room"}
+528;{"v":"Room for rent in homey twoflat"}
+537;{"v":"Coach house Wicker Park Bucktown"}
+551;{"v":"TopFloor Vintage Rogers Park by EL"}
+553;{"v":"3BD, 2BA Hotel Suite Fireplace"}
+557;{"v":"South Loop CondoSoldier Field"}
+589;{"v":"WRIGLEY AND THE LAKEsteps away"}
+602;{"v":"2 BR  Great Location & Garage Spot"}
+610;{"v":"St. Ruby's Flats C  Easy Access to Loop (20 min)"}
+612;{"v":"Solo Room/w Private Bath  **2 blocks from EL**"}
+614;{"v":"Saint Ruby's Flats A  20 minutes toLoop by El"}
+635;{"v":"Prairie + Garden /Comfy Chic  Rm 1"}
+649;{"v":"Homey Chicago Condo (2Br1Ba)"}
+651;{"v":"Lakeview Charmer with parking!"}
+654;{"v":"Perfect Familyfriendly house"}
+668;{"v":"Chicago 4 story townhome"}
+678;{"v":"2Bedroom Suite Warm Community (LL)"}
+686;{"v":"MidCentury Decor Spacious 2 bd Lincoln Square"}
+712;{"v":"River North's FinestSleeps 6"}
+714;{"v":"Cozy cottage in Chicago  dog friendly."}
+723;{"v":"Private 2Bedroom Floor in Vintage Home"}
+724;{"v":"2bd/2b close to ELshopping"}
+725;{"v":"2BD/2BA2 blks to ELLincoln Pk Zoo"}
+726;{"v":"2BD/2BA 2 blck to ELWalk to Zoo & Beach"}
+734;{"v":"Clean, safe and familyfriendly"}
+741;{"v":"Rooms in VintageStyle Lincoln Square Condominium"}
+748;{"v":"Uptown GemLarge Fully Renovated 2Bed/2Bath Condo"}
+753;{"v":"Uptown GemPrivate Room and Full Private Bathroom"}
+778;{"v":"BronzevilleNear to everything King Sized Bed"}
+803;{"v":"Beautiful One Bedroom  Gold Coast"}
+807;{"v":"Logan Square Blue & Red"}
+810;{"v":"Sunny and spacious 2bedroom in Logan Square"}
+813;{"v":"Washington \"Teal\" Room  near CTA"}
+814;{"v":"Logan Square Green Room"}
+822;{"v":"Logan Square  Teal & Grey Room"}
+828;{"v":"2 Bed/2Bath Condo  Logan Sq."}
+830;{"v":"Huge Modern Condo  Master Bedroom"}
+832;{"v":"Penthouse Oasis in Wicker Park  Private Room"}
+837;{"v":"Lincoln Park Apt 1 Bed/Bath"}
+841;{"v":"SPACIOUS DWNTWN 2bd 2bthROOF VIEWS & FREE PARKING"}
+843;{"v":"Monthly Room #1  Business or Studies in Chicago"}
+851;{"v":"2bedroom  Lakeview"}
+852;{"v":"Quiet, artsy, vintage, queerfriendly, Humboldt Pk"}
+875;{"v":"Little Village Guest Room for 2"}
+877;{"v":"2BD/2BA Luxury Apartment  Roof Deck Access"}
+887;{"v":"LightFilled Condo steps from Division St."}
+888;{"v":"Bright & Airy TwoStory Skylight Loft!"}
+900;{"v":"Monthly  Room #3 Great 4 Business or Studies"}
+910;{"v":"Dietlin B&B  Paris Room"}
+919;{"v":"Monthly  Room #4 Great 4 Business / Studies"}
+930;{"v":"Logan Square Queen Comfort"}
+936;{"v":"Logan SquareBuddy Room "}
+941;{"v":"???SPACIOUS 4LEVEL TOWNHOUSE???CLOSE TO EVERYTHING???"}
+959;{"v":"Historic Greystone 3brLogan Square"}
+973;{"v":"The ShangriLa Loft; a Spacious Oasis"}
+974;{"v":"Charming, Warm, and Centrally located  Entire apt"}
+980;{"v":"Spacious 2 Bed 2 Bath w/ Roof Deck  ARTS DISTRICT"}
+989;{"v":"Wicker ParkSleeps 20 on 2 levels"}
+1020;{"v":"Dietlin B&B  Wizard of Oz Room"}
+1024;{"v":"Gather at the WellStocked Bar in a Wicker Park Townhouse"}
+1028;{"v":"Wrigley/Lakeview Superhost Duplex  3BR/2.5BA "}
+1042;{"v":"Lincoln Square InLaw Suite of Single Family Home"}
+1053;{"v":"FirstClass Couch Surfing"}
+1058;{"v":"BRONZEVILLE OASIS I  Mins to UChicago & The Loop"}
+1059;{"v":"BRONZEVILLE OASIS II Mins to UChicago & The Loop"}
+1065;{"v":"Do a Mitzvah  Sleep in a Sukkah!"}
+1070;{"v":"Huge 2 bdrm Condo East Lakeview15 Walk to Wrigley"}
+1075;{"v":"Fantastic Lakeview homeWalk to Wrigley! 3BR/2BA"}
+1086;{"v":"9 King Bed Wicker Park Downtown Loft  Walk City!"}
+1088;{"v":"We Have Trees & Tinsel"}
+1093;{"v":"LOCATION! 1 BEDROOM by Hancock Tower ROOFTOP DECK"}
+1095;{"v":"Wrigley/Boystown1st Flr 2 Bd, 1Bth, DNG, LVG, KCN"}
+1099;{"v":"Artfilled Victorian home for Thanksgiving dinner"}
+1105;{"v":"Plantfilled City Sanctuary Near Loop, Med. Dist."}
+1112;{"v":"Southport Sojourn @ Wrigley Field  3BR / 4 Beds"}
+1125;{"v":"Top Floor Penthouse  Lake Adjacent"}
+1126;{"v":"Logan SquareBuddy Room "}
+1129;{"v":"Old Town furnished 2br2ba"}
+1138;{"v":"Walk to Wrigley! Topfloor"}
+1149;{"v":"That 70's House  Chicago"}
+1151;{"v":"Sunny & Chic 2Br  West Chicago"}
+1158;{"v":"Furnished 2br2ba, 3rd fl, wifi"}
+1159;{"v":"Flexible Apt. for 8 by Oak ParkCHI"}
+1169;{"v":"Hotellike Room w/Private Entrance"}
+1173;{"v":"Fantastic River North Location 2b2"}
+1184;{"v":"Great city ViewsOld town, min away from the city"}
+1188;{"v":"NORTHCENTER, closein, convenient + free parking"}
+1191;{"v":"LastSec Booking 15 mins. to Center! Free Parking!"}
+1197;{"v":"Stay Here"}
+1219;{"v":"Jefferson Park Bungalow  complete"}
+1221;{"v":"Two Bedroom Lakeview CondoSleeps 6, Easy Parking"}
+1227;{"v":"2BD/2BA Hotel Suite  With Fireplace"}
+1233;{"v":"Logan SquareButterfly"}
+1235;{"v":"Washington \"Wine\" Room  near CTA"}
+1237;{"v":"Best View of the City  Luxury 2BR"}
+1249;{"v":"Alewyfe Inn Urban Farm Garden Apt."}
+1251;{"v":"Bright, Cozy Home Ideal for Chicago Holiday Trips"}
+1255;{"v":"Lincoln Park  Short walk to Wrigley "}
+1257;{"v":"Clean + Crisp 1 BR  UK Village"}
+1258;{"v":"ENTIRE BUILDING  Walk to Wrigley "}
+1259;{"v":"Lincoln Park  Short walk to Wrigley "}
+1260;{"v":"Prime Location by WaterTower Mall  Designer Home"}
+1262;{"v":"LUXURY 2 BEDROOM 2 BATHROOM Lake Views  Location!"}
+1264;{"v":"Elegant Master Bedroom  Close to Wrigley/Boystown"}
+1268;{"v":"Gorgeous Room  Minutes from Wrigley/Boystown"}
+1278;{"v":"Explore Chicago and Lake Michigan from a LightFilled House"}
+1282;{"v":"3BR Entire Apt  Newly Remodeled!"}
+1292;{"v":"Logan SquareButterfly"}
+1294;{"v":"The Whimsical Wrigley House  Minimum 30"}
+1298;{"v":"Charming, Spacious Studio off Brown Line"}
+1300;{"v":"Wicker Park@Home"}
+1303;{"v":"Cute, Cozy, & Private 2 Bedroom 1 Bath w/ Kitchen"}
+1304;{"v":"Washington Green Room  $0 Parking"}
+1308;{"v":"Spacious Wicker Park Loft1Bed, 1"}
+1318;{"v":"Fantastic Room  Minutes from Wrigley/Boystown"}
+1326;{"v":"Private & Cozy Bucktown Flat Western #bluelinebnb"}
+1328;{"v":"5Star Reviewed 2 bedroom Unit, 2 minutes to city"}
+1329;{"v":"Private Basement in TriTaylor Home"}
+1346;{"v":"Wicker ParkEntire Basement Apt"}
+1350;{"v":"Private Room Cozy Chicago 2 Bedroom Apartment. ??_?Ù\u008f"}
+1361;{"v":"4 Bed Shared Room  Wrigley Hostel"}
+1365;{"v":"Historic Irving Park Home  Sleeps 26"}
+1371;{"v":"4 Bed Female Dorm  Wrigley Hostel"}
+1374;{"v":"5Star??? Safe & Cozy Map Room! FREE Pkg 25m to Loop"}
+1378;{"v":"Alewyfe Inn Urban Farm Guest Room"}
+1381;{"v":"Sydni Suites near the University of Chgo 2bdrm."}
+1382;{"v":"Sydni Suites near the University of Chicago 1bdrm"}
+1383;{"v":"Sydni Suites near the University of Chicago 2bdrm"}
+1403;{"v":"NEW SLEEK CONDO VIEWS HIGHEND POOL"}
+1417;{"v":"Laidback luxe~minutes to McCormick Place!"}
+1441;{"v":"Hip Room  Minutes from Wrigley/Boystown"}
+1446;{"v":"HUMBLE ABODEin Wicker Park :) 2Br/1Ba"}
+1460;{"v":"Comfortable Designer 3Br  Chicago"}
+1464;{"v":"Private Room  Logan Square, 20 Min To Downtown"}
+1484;{"v":"Downtown Two Bedroom Lake View Business Extended"}
+1488;{"v":"Awesome Single Fam. Home in Wicker Park Sleeps 9"}
+1492;{"v":"Roscoe Village  Charming 3 bed 2 bath HM1"}
+1496;{"v":"Fantastic River North Location!s2"}
+1497;{"v":"Prime Lincoln Park 4BD  Perfect for Large Groups!"}
+1498;{"v":"Bright & Very Spacious 4 Bed  Lincoln Park!"}
+1499;{"v":"Wrigleyville Coachhouse  Walk to Wrigley "}
+1500;{"v":"Massive 4 Bedroom Duplex  Walk to Wrigley Field!"}
+1503;{"v":"5Star Luxury Apartment in the Heart of Chicago"}
+1527;{"v":"Clean & Serene  Quiet Northside Room"}
+1528;{"v":"Sunny 1 bd,hipWicker Park Gem"}
+1532;{"v":"Lincoln Park  Short walk to wrigley!Sleeps 10!"}
+1542;{"v":"New REHAB  2Bd/1Ba Lakeview/Boystown *CUBS*"}
+1543;{"v":"Highrise apt available!!"}
+1550;{"v":"Amazing 3bedroom garden condo near U of C"}
+1553;{"v":"Private Master SuiteRight Next To Back Entrance!"}
+1568;{"v":"Top Floor Suite Logan Square/Avondale  CentralAir"}
+1573;{"v":"River North CLEAN MODERN SLEEK  Merchandise Mart"}
+1576;{"v":"The Chicago Bungalow  Entire Single Family Home"}
+1587;{"v":"Spacious 2bd HighEnd Condo 51st floor with Views!"}
+1594;{"v":"Brownstone Condo OneMinute Walk to Wrigley Field"}
+1602;{"v":"Private Inlaw Suite near O'Hare"}
+1606;{"v":"Cozy Studio Apt. Home"}
+1607;{"v":"Belmont Gardens  Peace & Quiet, Full Living Area"}
+1642;{"v":"COOL PLACE  10 MIN WALK FROM WRIGLEY FIELD"}
+1645;{"v":"Huge Wicker Park Loft  Easy Transportation"}
+1651;{"v":"Gorgeous Spacious 3bedroom Near the Lake & Dining"}
+1652;{"v":"Loft Style Private Apt (1 Room 420 Friendly)"}
+1653;{"v":"NEW ULTRA LUXURY MODERN Studio RIVERNORTH LUXURY"}
+1657;{"v":"The Roosevelt Suite  Garden Studio"}
+1668;{"v":"Bucktown Beauty  Private Room & Bathroom"}
+1670;{"v":"Sunny Vintage Lincoln Park AptBest Location!"}
+1671;{"v":"Lovely Studio with Responsible Host (Superview)"}
+1678;{"v":"Sleek Vintage HighRise Apartment"}
+1680;{"v":"ARTISTIC WONDERLAND GARDENSouth Zen bedroom 1/3"}
+1685;{"v":"Spacious wellstyled unit filled with sunlight!"}
+1688;{"v":"The Spartan  Downtown, Chicago (Weekly Rate)"}
+1691;{"v":"Beautiful 3BR, 1.5 Bath with Parking"}
+1696;{"v":"ARTISTIC WONDERLAND GARDEN Twin"}
+1705;{"v":"SunnyOpen Condo"}
+1706;{"v":"Only 06/2006/24 is available.After08/25 is free"}
+1708;{"v":"Modern 3 Bedroom 2 Bath  BEST Location in Chi"}
+1709;{"v":"CLARK & DIVERSEY  Lincoln Park 4 Bed "}
+1714;{"v":"Private, wellequipped Roscoe Village accomodation"}
+1734;{"v":"Cozy Private Bedroom  Ukrainian Village"}
+1740;{"v":"1 minute from UChicago"}
+1749;{"v":"Crowsnest bedroom in Logan Square coop"}
+1755;{"v":"Vintage sunsoaked condo in Boystown"}
+1758;{"v":"High Fidelity  Wicker Park "}
+1764;{"v":"??_ of Wicker Park|Sleeps 14 |Steam Shower| 2Levels"}
+1765;{"v":"Spacious 5br home next to transit! Great area!"}
+1774;{"v":"FUN CHICAGO SPACE15 Min Downtown"}
+1780;{"v":"1 BR Bucktown/Wicker Park Apt.  Great Location"}
+1795;{"v":"Garden Suite  Bedroom, Bathroom & Living Space"}
+1820;{"v":"ROMARILYN NEAR RED LINE&LAKE\n18 MINS TO DOWNTOWN"}
+1823;{"v":"2br Home Close to Downtown, Free Parking!"}
+1826;{"v":"3QueenbdFreeParkgMcCormick43GrnTrain"}
+1828;{"v":"Beautiful 1bedroom, 1"}
+1829;{"v":"3BR FlatGreat Location near Logan Square/Avondale"}
+1839;{"v":"Fantastic River North Location  Studio"}
+1840;{"v":"Fantastic River North Location  1B"}
+1842;{"v":"Fantastic River North Location  2B"}
+1843;{"v":"Lincoln ParkChicago"}
+1846;{"v":"Elegant FourLevel Home with Personal Touches Everywhere"}
+1854;{"v":"5Star??? Private Suite"}
+1862;{"v":"FunLoving Botanic Garden. Easy for OHare Traveler"}
+1869;{"v":"Babyfriendly, Superbly"}
+1871;{"v":"South Loop 2 BEDROOM  MASTER SUITE BATH|By Target"}
+1881;{"v":"Lincoln ParkChicago Dwntown"}
+1893;{"v":"2 Bedrooms Comfy Chicago Basement Apartment!"}
+1895;{"v":"Modern 1 BR, Steps to L, Privateclub amenities"}
+1904;{"v":"Private Floor  8 miles from ORD + Shopping/Food"}
+1920;{"v":"Chic Manhattanstyle Studio Loft w/ Rooftop"}
+1922;{"v":"Hip Chicago apartment  FREE parking spot included"}
+1923;{"v":"Large roomprivate bth and balcony, Wicker Park!!!"}
+1939;{"v":"Extra Large 2bd 2ba in Intimate 2flat Bldg."}
+1941;{"v":"Luxury Spacious Living  Wrigley Field "}
+1944;{"v":"??? LUXURY??? STUDIO  Grand Chicago Riverfront Resort"}
+1947;{"v":"3Story (3BD/3.5BA HydePark/LakeShoreDrive)"}
+1954;{"v":"Near Loyola UniversityBeach"}
+1956;{"v":"Queen Bed: Luxury of Hotel  20 Mins Drive to ORD"}
+1962;{"v":"Lux HighFloor Unit With Amazing View! 5*Amenities"}
+1964;{"v":"Eclectic topfloor Pilsen private apartment"}
+1971;{"v":"Loft Style Private Apt 2 (1 Room 420 Friendly)"}
+1974;{"v":"New luxury rehab,2br2ba, Old Town, sleeps 8, wifi"}
+1989;{"v":"Wrigleyville Gem: 11/2 blocks to Wrigley!"}
+1991;{"v":"HEART OF LAKEVIEW Queen Bed/Bath"}
+1992;{"v":"Irving Park Private Treelined Room"}
+1995;{"v":"Private Bath & TempurPedic Queen Bed"}
+1997;{"v":"Entire Floor of Cozy TwoFlat Near Wrigley Field"}
+1998;{"v":"Spacious Jr SuiteLike Near Wrigley"}
+1999;{"v":"MODERN STUDIO SUITE  Sleeps 4 Guests!"}
+2003;{"v":"Simple Lincoln Park Room  Close to everything!"}
+2006;{"v":"FamilyFriendly Bridgeport Apartment"}
+2015;{"v":"Beautiful 1 BDR in the west loopSteps from Union!"}
+2018;{"v":"Fully Furnished One Bedroom AptChicago Downtown!"}
+2026;{"v":"Chicago Downtown  Fully Furnished Apartment!"}
+2031;{"v":"Global Village Oneof"}
+2035;{"v":"5star Host"}
+2044;{"v":"TreeLined Street, Bucktown Suite "}
+2045;{"v":"Lg shared Rm 3 Safe quiet home"}
+2046;{"v":"Pilsen, Arts District, UIC  Newly Rehabbed 1 bdrm"}
+2058;{"v":"The Firehouse B&B  The Bunk Room"}
+2061;{"v":"The HideAway | South Loop"}
+2066;{"v":"Cozy, Clean & Renovated in the Gold Coast  ENJOY!"}
+2079;{"v":"2Bedroom Apt. at FieldHouse Jones"}
+2083;{"v":"Luxury 1BR in Roscoe VillageWalk to Wrigley Field"}
+2088;{"v":"The Secret Garden  at Humboldt Park"}
+2090;{"v":"Spacious 4 Bed 3 Bath  Heart of Lincoln Park"}
+2094;{"v":"$350 PER MO.. PER PERSON BUNK BED / FREE WIFI &"}
+2097;{"v":"$350 PER MON., PER PERSON BUNK BED, FREE WIFI, &."}
+2099;{"v":"$350 PER MONTH, PER PERSON  BUNK BED, FREE WIFI &"}
+2101;{"v":"$350 PER MOnth, PER PERSON  BUNK BED, FREE WiFI &"}
+2107;{"v":"Beautiful South Shore Bungalow 2"}
+2111;{"v":"A Stone's Throw from Wrigley Field ?__ 4BR"}
+2119;{"v":"Vintage 3 BR Apt with Double Balcony  Old Town"}
+2129;{"v":"South Loop Gem Near McCormick Place/Soldier Field"}
+2130;{"v":"4 Bedroom Apartment Perfect for Big Groups"}
+2133;{"v":"PRESIDENTIAL SUITE  1 Bedroom "}
+2141;{"v":"The Bucktown House #3  Stay in Chi's Best 'Hood!"}
+2142;{"v":"Luxe Flat Entire flat. Private Home"}
+2143;{"v":"Garden Studio  2 Blocks from Wrigley Field"}
+2149;{"v":"2 Bedroom Penthouse  South Loop / Downtown"}
+2150;{"v":"Downtown Loft! 2 BR (415)  McCormick place"}
+2151;{"v":"2 BR South Loop / Downtown 515  McCormick Center"}
+2152;{"v":"2BR Loft in South Loop  McCormick Center"}
+2156;{"v":"Wicker Park  sleeps up to 4"}
+2174;{"v":"Cozy Bungalow Steps to Wrigley  Parking Included!"}
+2189;{"v":"Luxury SingleFamily Home Near Wrigley Field"}
+2194;{"v":"Superhost Private Rm 21 in Safe upscale Hyde Park"}
+2199;{"v":"Really nice 2bedroom Suite with free parking"}
+2213;{"v":"Wrigleyville Mansion  Sleeps 16+"}
+2218;{"v":"High End Wrigleyville Condo  1/4 block to Stadium"}
+2222;{"v":"ARTFILLED private room in beautiful bright apt!"}
+2227;{"v":"Blues Brothers  Express | South Loop"}
+2233;{"v":"CozyChic Lincoln Park Studio"}
+2248;{"v":"Ultimate Chicago Experience  City View Roof Deck!"}
+2252;{"v":"Modern, FullyStocked Getaway Pad!"}
+2254;{"v":"*Groups  Christmas Shopping TripRetreat!"}
+2265;{"v":"Comfy Wrigleyville Walk Up 06/1707/18 Sublet"}
+2267;{"v":"6 King Bed Downtown Dream  City View Roof Deck!"}
+2268;{"v":"Short stayWarm and Cozy room in Beautiful Condo"}
+2270;{"v":"Edgewater Quietude  Combined 2 Bedrooms"}
+2272;{"v":"Sunny 3br/2bath apt in lovely areawalk to Wrigley"}
+2275;{"v":"Quick walk to Wrigleysteps to CTA. 1bd"}
+2277;{"v":"Cozy WrigleyAdjacent Room"}
+2286;{"v":"1 BR/1 BA  3 blocks from Wrigley"}
+2288;{"v":"Big, Homey Logan Square 2br!"}
+2295;{"v":"Charming 1BDRM Apt Close to Wicker Park"}
+2301;{"v":"On The Boulevard  Spacious 1500 sq.ft."}
+2305;{"v":"5 Minutes from Wrigley Field  3 BR"}
+2318;{"v":"Lincoln Park  Vintage Master Bedroom"}
+2324;{"v":"Super Cozy & Private Room  Avondale/Logan Sq."}
+2329;{"v":"Beautiful apartment in tritaylor w/private bath.."}
+2331;{"v":"Private Room  Memorable Andersonville"}
+2336;{"v":"Spacious Downtown Loop Studio  Sleeps 3"}
+2340;{"v":"Downtown Living  Entire Building "}
+2342;{"v":"Gorgeous, cozy 1bedroom Suite in Andersonville"}
+2343;{"v":"2 bed North Hoteling Room  Shared House"}
+2347;{"v":"2 Bed South Hoteling Room  Shared House"}
+2351;{"v":"Best Location in Old Town 1 Bedroom"}
+2368;{"v":"Spacious and Kidfriendly 2"}
+2370;{"v":"1bedroom apt. in Lakeview, close to Wrigley"}
+2373;{"v":"Great for Groups North Michigan Avenue"}
+2376;{"v":"Edgewater Quietude  The Emerald Room"}
+2378;{"v":"Edgewater Quietude  The Perkins Gilman Room"}
+2379;{"v":"Goldcoast/RiverNorth 1BR 1parking inunit W/D"}
+2382;{"v":"Cozy Logan Square 2Bed Apt"}
+2383;{"v":"Wrigley Oasis  Steps from the Field! 3BR/1BA"}
+2384;{"v":"??_Fantastic 5Star Home in Chicago's Trendiest Area"}
+2385;{"v":"Cozy Logan Square onebedroom hide away"}
+2390;{"v":"Huge, Historic and Gorgeouslygutted Greystone!"}
+2391;{"v":"Classic Edgewater 3BR/1"}
+2402;{"v":"Amazing 2BR Apt in Old Town! Eat,Drink,Beach&Shop"}
+2411;{"v":"Large Wicker Park Loft  Walk To Everything!"}
+2435;{"v":"Sunny, FamilyFriendly Apartment near Wicker Park Subway"}
+2442;{"v":"Sunsoaked Wicker Park 2BR on blue line subway"}
+2443;{"v":"Luxury Loyola 3 Bedroom2 Bath, Near Beach and El"}
+2450;{"v":"Adventurer's ParadiseShared"}
+2465;{"v":"Ensuite near UChicago"}
+2467;{"v":"Amazing 2bed in the heart of Downtown Chicago"}
+2486;{"v":"# Downtown / Loop 2BR Condo  Magnificent Mile"}
+2487;{"v":"Heart of Downtown 2BR  Millennium Park"}
+2490;{"v":"Alewyfe Inn Urban Gothic Farmhouse for 7 near CTA"}
+2493;{"v":"Fullyrenovated, modern 1"}
+2496;{"v":"Historic and Artfilled Two Bedroom Condo Downtown"}
+2508;{"v":"Fullyequipped condo near Medical District"}
+2521;{"v":"Logan Square Hot spot  Room!Casa Particular 1"}
+2523;{"v":"Spacious 2Bd 2Bth CondoWicker Park near Blue Line"}
+2536;{"v":"Bucktown Apartment Near Blue Line  FREE Parking"}
+2539;{"v":"HighRise Urban Vistas from a Contemporary City Pad"}
+2544;{"v":"United CenterWest loop"}
+2546;{"v":"SuperComfy spot next to Wrigley Field ;"}
+2563;{"v":"Extra Large, Fully Furnished StudioCHI Downtown"}
+2564;{"v":"OldTown Garden Getaway, steps from Second City!"}
+2597;{"v":"Pictureperfect"}
+2600;{"v":"Large Studio  Short"}
+2601;{"v":"Downtown Chicago  Spacious Cozy 2 Bedroom (401)"}
+2603;{"v":"Great for Groups  Magnificent Mile"}
+2628;{"v":"Private room in safe, clean, hightech smarthouse"}
+2629;{"v":"Gorgeous Chi Apt  close to downtown/lake/wrigley!"}
+2630;{"v":"Luxurious Loft  2BR & 2BATH"}
+2638;{"v":"Unique 2Floor Condo UK Village"}
+2647;{"v":"Lux 2BR Highrise "}
+2648;{"v":"Cozy Room for One In The Company of Cats Blueline"}
+2653;{"v":"Casa Logan  Modern and cozy two bedroom apartment"}
+2663;{"v":"ICONIC TOWER 1BR + EatIn Kitchen!"}
+2683;{"v":"IndustrialStyle Loft with Exclusive Rooftop Deck and Complimentary Garage Spot"}
+2685;{"v":"LUXURY TopFloor Downtown River North 1BR/1BA Apt"}
+2687;{"v":"Noble Square 2BR Apt  Where you want to be!"}
+2690;{"v":"Great Location!!12"}
+2692;{"v":"Near Chinatown convenient free parking (QueenC)"}
+2693;{"v":"Near Chinatown convenient free parking (TwinB)"}
+2706;{"v":"Wicker Park House for 10  2 blocks to the \"L\"!"}
+2713;{"v":"Big, Luxury, Best Location  1BR"}
+2715;{"v":"Close to EVERYTHING! Multibed&bath w/free parking"}
+2734;{"v":"Charming South Loop ApartmentWifi,Netflix,parking"}
+2737;{"v":"Brand New Designer 3bd "}
+2739;{"v":"Lake view studio w/ shared pool, gym, game room & lounge  dogs OK!"}
+2742;{"v":"Spacious, Bright Apartment  Close to Downtown"}
+2763;{"v":"Huge Top Floor 3 BR Apartment  Free Parking, WiFi"}
+2781;{"v":"1BR/Bath,W/ Private Entrance/Exit;24/7 checkinOut"}
+2786;{"v":"Luxury 1 bedroom in River North  Entire Place!"}
+2789;{"v":"Updated Studio in Andersonville  (no extra fees)"}
+2794;{"v":"Wrigleyville/Boystown/Lakeview Petfriendly Studio"}
+2803;{"v":"Perfect 2 PVT BdrmsShareBathKitchen"}
+2812;{"v":"Near Downtown! 2 Bed 2 Bath Condo Fully Appointed"}
+2819;{"v":"SkyHigh Home near Navy Pier and the Magnificent Mile"}
+2821;{"v":"Renovated  Beautiful Decor & Finishes "}
+2832;{"v":"Cute Studio in Gold Cost LOCATION"}
+2833;{"v":"Pilsen Apartment  Just Across from Thalia Hall!"}
+2844;{"v":"1Bedroom Apt. at FieldHouse Jones"}
+2850;{"v":"Wonderful Studio in Downtown With Superhost"}
+2862;{"v":"01. Private Room in Shared Apartment  3 Mi to NWU"}
+2875;{"v":"Comfy South Loop Condo  Great Location!"}
+2879;{"v":"Sublet Studio Apt Summer in Chicago "}
+2880;{"v":"Private bedroom in beautiful Bungalow 1"}
+2899;{"v":"Cute Rogers park long term rental Special price"}
+2900;{"v":"Chic Home! Walk to NightlifeComedy"}
+2904;{"v":"MidCentury 2BR in Lincoln Park by Sonder"}
+2906;{"v":"Walkable dogfriendly studio w/city view & shared pool, gym, pool table, lounge!"}
+2907;{"v":"Dogfriendly high"}
+2929;{"v":"Modern TopFloor Condo near Lake w/ Vintage Charm"}
+2939;{"v":"Beautiful 3bed Condo Near University of Chicago"}
+2951;{"v":"COZY STUDIO  CHICAGO DOWNTOWN"}
+2956;{"v":"Luxury HighRise Condo"}
+2957;{"v":"1BD in the Heart of West Town Explore Chicago!"}
+2959;{"v":"Classic Logan Square comfy, spacious and bright!"}
+2962;{"v":"Shared RM1 Just for Budget guests w/ FREE PARKING"}
+2963;{"v":"Shared RM3Right for budget travelers Free Parking"}
+2968;{"v":"Private room with bathroom  heart of Wicker Park"}
+2969;{"v":"Spacious 2level unit close to Lakefront/Wrigley"}
+2970;{"v":"Charming 2BR/1"}
+2987;{"v":"Oneof"}
+2998;{"v":"3BD, 2.5 BTH  Next Door Townhome"}
+3000;{"v":"Contemporary 2Bd Neighborhood Beauty (Pilsen)"}
+3002;{"v":"Single floor Townhome apartment with back yard"}
+3015;{"v":"Open Layout 1.5BR/1BA LakeviewBelmont"}
+3029;{"v":"Oneof"}
+3040;{"v":"Pilsen Purple Palace  3 Min. Walk From Pink Line"}
+3049;{"v":"CHICAGO STUDIO IN JEFFERSON PARK O'HARE ROSEMONT"}
+3051;{"v":"West Ridge BungalowRoom 1"}
+3053;{"v":"West Ridge BungalowRoom 2"}
+3067;{"v":"FrenchMoroccan Escape in River North"}
+3077;{"v":"Private Bedroom  Unique Artist Loft in West Loop"}
+3083;{"v":"Spacious 2story Wrigleyville Coach House"}
+3086;{"v":"ChicagoLuxe. Welcome Home."}
+3102;{"v":"Charming Logan Square Room lots of natural light"}
+3116;{"v":"Comfy & Clean Wicker Park Apartment  Sleeps 10"}
+3133;{"v":"3 Story Townhome  Walk to Wrigley and Beach!!"}
+3142;{"v":"The Jetson House  with Smart Home Technologies#"}
+3157;{"v":"Unique Trilevel Townhome"}
+3167;{"v":"HOT West Loop Modern Loft Style Condo2 bed/2 bath"}
+3169;{"v":"Entire Apartment  Coach House on Oakley"}
+3175;{"v":"1 BDR  Walkable "}
+3181;{"v":"Vintage 1bedroom in Wicker Park / West Town"}
+3186;{"v":"Chic & Stylish Private Bedroom  Logan Square"}
+3198;{"v":"Roomy 1Bed in the heart of Wrigley/Boystown!"}
+3202;{"v":"BRIGHT & SPACIOUS Condo  Smack middle of WRIGLEY"}
+3212;{"v":"Wicker Park Spartan Room private bed+bath"}
+3228;{"v":"Comfy Retro Studiosleeps 4, PRIVATE side entrance"}
+3230;{"v":"(72WP) A Smart Private Bedroom in Douglass Flat"}
+3235;{"v":"(72WW) A Smart Sleeper Sofa in Douglass Flat"}
+3237;{"v":"Cozy Studio  Lincoln Park (Halsted & Diversey)"}
+3239;{"v":"(72WC) A Smart Private Bedroom in Douglass Flat"}
+3242;{"v":"(72WG) A Smart Day Bed in Douglass Flat"}
+3245;{"v":"McCormick Convention  Condo Vacation Rentals"}
+3258;{"v":"Cozy room and Friendly Host  Wicker Park"}
+3263;{"v":"Cozy Vintage 1bdrmPilsen"}
+3269;{"v":"WellLit Hyde Park Apartment"}
+3289;{"v":"Modern and Bright  3 Bedroom Logan Square Home"}
+3296;{"v":"Wicker Park  private room + bath, bfast included!"}
+3297;{"v":"Longterm: Sunny vintage 2 bed with parking"}
+3302;{"v":"Industrial Loftstyle 2 Bedroom in Lincoln Park"}
+3303;{"v":"Lakeview Chicago condo  great location & parking"}
+3306;{"v":"Spacious, modernstyle apartment near downtown CHI"}
+3315;{"v":"Heart of Bucktown  Entire apartment"}
+3334;{"v":"Chicago Midway Airport Area Best place in town!!"}
+3359;{"v":"The Fulton House Greystone  Sleeps 32!"}
+3363;{"v":"(71WB) A Smart Sleeper Sofa in Douglass Flat"}
+3372;{"v":"(71WS1) A Smart Shared Bedroom in Douglass Flat"}
+3373;{"v":"(71WS2) A Smart Shared Bedroom in Douglass Flat"}
+3374;{"v":"(71WS) A Smart Private Bedroom in Douglass Flat"}
+3394;{"v":"(71WMC) A Smart Private Bedroom in Douglass Flat"}
+3395;{"v":"(71WD) A Smart Daybed in Douglass Flat"}
+3416;{"v":"Affordable extended stay  everything you need!"}
+3417;{"v":"Cozy 1 BD in Lincoln Park steps from North Pond!"}
+3428;{"v":"Art Deco 1BR/1"}
+3429;{"v":"Hotel Services, Longterm prices"}
+3436;{"v":"Room 6  Canal Inn FreeParking 24/7"}
+3437;{"v":"Room 7  Canal Inn FreeParking 24/7"}
+3438;{"v":"Room 9 Canal Inn FreeParking 24/7"}
+3450;{"v":"HIGHEND DOWNTOWN 1br/1ba Rooftop Hot Tub!"}
+3451;{"v":"Huge, sunfilled loft in hot Logan Square/Bucktown"}
+3453;{"v":"Lofty Converted Warehouse in Lakeview  Sleeps 16!"}
+3456;{"v":"Beautiful Room in Trendy Wicker ParkFree Parking!"}
+3458;{"v":"Logan Square 3 Bed Penthouse close to everything!"}
+3461;{"v":"Room 11 Canal Inn FreeParking 24/7"}
+3462;{"v":"Room 10 Canal Inn FreeParking 24/7"}
+3468;{"v":"Room 8 Canal Inn FreeParking 24/7"}
+3473;{"v":"Bright and dogfriendly retreat with lofted bedroom, close to shops!"}
+3477;{"v":"Loyola MidSize Studio"}
+3478;{"v":"Cheerful Lakeview Townhouse  Sleeps 10!"}
+3483;{"v":"Guest room in Beautiful CondoBest neighborhood"}
+3485;{"v":"CHICAGO 2 BEDROOM JEFFERSON PARK O'HARE ROSEMONT"}
+3487;{"v":"Heart of Wicker Park  quick walk to the blue line"}
+3492;{"v":"Gorgeous Logan Square Private Bedroom #1"}
+3508;{"v":"Room3 Comfy Private Room inChicago"}
+3509;{"v":"Pilsen Apartment for 46 people"}
+3523;{"v":"COZY ARTFILLED CHICAGO 2BD HEART OF NORTHCENTER"}
+3535;{"v":"OHC Studio Gorgeous Huge Apt Steps to Blue Line"}
+3546;{"v":"A3. DowntownChicago!Excellent PriceLocation"}
+3565;{"v":"A Quiet Getaway  Minutes from Wrigley & Boystown"}
+3575;{"v":"Cozy, oldtimey Portage Park Apartment"}
+3576;{"v":"Lastmin booking | clean cozy | mins to loop!"}
+3579;{"v":"Special offerprivate bedroom and bathin Chicago"}
+3602;{"v":"CHICAGO 1 BEDROOM JEFFERSON PARK O'HARE ROSEMONT"}
+3604;{"v":"2BR Avondale Adventure  Perfect for Families!"}
+3617;{"v":"Gorgeous Logan Square  Private Bedroom #2"}
+3622;{"v":"(52WV) A Smart Private Bedroom in Douglass Flat"}
+3623;{"v":"(52WA) A Smart Private Bedroom in Douglass Flat"}
+3625;{"v":"(52WA1) A Smart Shared Bedroom in Douglass Flat"}
+3626;{"v":"(52WA2) A Smart Shared Bedroom in Douglass Flat"}
+3636;{"v":"Clean and Contemporary  Two Blocks to Beach!"}
+3638;{"v":"(52WD) A Smart Daybed in Douglass Flat"}
+3639;{"v":"(52WG) A Smart Day Bed in Douglass Flats"}
+3644;{"v":"Cozy Inlaw in Avondale"}
+3649;{"v":"2 Floor  4 BR"}
+3650;{"v":"Upscale Modern Chicago Loft  4 Bed/3 Bath!"}
+3651;{"v":"Sunny 1Bedroom apartment steps from the Red Line"}
+3653;{"v":"Relax,Private InLaw Garden Suite by Lake/Downtown"}
+3659;{"v":"PRIME LOGAN SQUARE LOCATION  PRIVATE APARTMENT"}
+3662;{"v":"Amadeus Stay  Hip Central 3bdrm Apt +Free Parking"}
+3675;{"v":"Private Room  Close to Wrigley Field"}
+3678;{"v":"??_ Instagram worthy view! Luxury Highrise Downtown"}
+3682;{"v":"Luxurious HotelStyle Apartment & Terrace"}
+3683;{"v":"Incredible location  perfect for any occasion!"}
+3685;{"v":"Petfriendly, entire 3 BR in Hot Logan Square!"}
+3687;{"v":"WrigleyVilla  1/2 Block From Wrigley Field!"}
+3702;{"v":"Huge Home 7 min drive to WRIGLEY FIELD GO CUBS!??_?Ù\u008f"}
+3704;{"v":"East Pilsen Apartment  Loop, McCormick, UIC"}
+3706;{"v":"Lovely, bright, 3bedroom Avondale flat. Private."}
+3713;{"v":"Spacious walkup just North of Wrigley!"}
+3717;{"v":"Cosy Wrigley Condo ($2,300 monthly NovApril)"}
+3731;{"v":"(52WL) A Smart Private Bedroom in Douglass Flat"}
+3758;{"v":"Room4  Bridgeport private Comfy Room"}
+3776;{"v":"Large Modern 2 Bed / 2 Bath  River North Downtown"}
+3777;{"v":"Dogfriendly retreat with private balcony, shared pool, hot tub, more!"}
+3779;{"v":"City view retreat w/ balcony & shared indoor pool/hot tub/gym/deck  2 dogs OK"}
+3780;{"v":"Printer's Row apartment w/ balcony & shared pool/hot tub/gym  totally walkable!"}
+3791;{"v":"Private Luxury Space Room1"}
+3807;{"v":"Private Luxury Space Room2"}
+3813;{"v":"Private home in Chicago20mins from Downtown"}
+3818;{"v":"Comfy couch Steps from Public Transit/Divvy"}
+3838;{"v":"Wicker Park  Close To Loop & Nightlife w/ Parking"}
+3840;{"v":"Beautifully Renovated  Cozy & Chic Decor...ENJOY!"}
+3844;{"v":"Custom Home near Wrigley with Parking  Sleeps 10!"}
+3846;{"v":"Spacious condo close to Wrigley parking included!"}
+3847;{"v":"Avondale Apartment  All Yours!"}
+3853;{"v":"The Greenleaf House  Room #1 Queen"}
+3887;{"v":"Double room w train nearby and onsite host"}
+3889;{"v":"Cozy 1st FL 2BR/1BA  McCormick/WhiteSox/Chinatown"}
+3897;{"v":"Charming! West Loop 1Bedroom for Rent"}
+3898;{"v":"bOneTrainToTheMcCormickPlace"}
+3899;{"v":"aPublicTransit&FewMinAwayFromMcCormickPlace"}
+3900;{"v":"Spacious Private Bedroom & Bath North of Wrigley!"}
+3907;{"v":"Cozy MidCentury Home"}
+3911;{"v":"The Greenleaf House  Room #4 Single"}
+3913;{"v":"Slice of Home  private bed/bath in LP"}
+3914;{"v":"The Greenleaf House  Room #5 Queen"}
+3916;{"v":"The Greenleaf House  Fantastic Futon!"}
+3917;{"v":"The Greenleaf House  Room #2 King Master"}
+3923;{"v":"The Greenleaf House Room #6 Single Bed & Loft Bed"}
+3924;{"v":"The Greenleaf House  Room #7 Loft Bed"}
+3927;{"v":"Luxury HighRise Apartment"}
+3930;{"v":"Luxury 2BR/2BA 2Fl Condo Lakeview Wrigley Field"}
+3933;{"v":"Large 1 Bedroom  Pets Welcome"}
+3944;{"v":"LakeviewWrigleyville Guest room"}
+3953;{"v":"B3. Next to DowntownChicagoBestPrice&Location"}
+3954;{"v":"B1.Next to DowntownChicagoBestPrice &BestLocation"}
+3956;{"v":"City GemNew Bright Airy Apartment in Great Area"}
+3969;{"v":"Wrigleyville Condo  private bedroom and bathroom"}
+3970;{"v":"SPACIOUS PRIVATE ROOMWRIGLEY FIELD GREAT LOCATION"}
+3972;{"v":"Sunny OneBedroom Apartment in Andersonville"}
+3983;{"v":"Lightfilled Service Apartment in South Loop"}
+3984;{"v":"KickAss Weekend Getaway *LGBTQ Friendly*"}
+3988;{"v":"Old Town Duplex  Steps from the Park!"}
+3989;{"v":"Roomy Irving Park Single Family House  Sleeps 10!"}
+4001;{"v":"Lakefront Home2 car garage"}
+4003;{"v":"Spacious 2BR, 1"}
+4004;{"v":"2S private Room T5 mins walk to blue line trainë\u008d«_?"}
+4009;{"v":"Brand New Modern Logan Square Home  6 Bedrooms"}
+4022;{"v":"Charming Bucktown Home  Sunny & Safe 2 BDR!"}
+4031;{"v":"Historic Pullman HomeStyle Comfort & Great Locale"}
+4037;{"v":"Riveting in Roscoe Village  3BR with Parking!"}
+4044;{"v":"Beautiful 2 BDR in the west loopSteps from Union!"}
+4057;{"v":"BEST LOCATION EVER!WRIGLEY  BOYSTOWN "}
+4070;{"v":"Vintage Modern Chicago  "}
+4078;{"v":"BEST LOCATION EVER!WRIGLEY  BOYSTOWN "}
+4079;{"v":"LOCATION! LOCATION!WRIGLEY  BOYSTOWN "}
+4080;{"v":"Cozy 1bed unit between O'hare & Dowtown Chicago"}
+4081;{"v":"LOCATION! LOCATION!WRIGLEY  BOYSTOWN "}
+4082;{"v":"3BD Duplex Loft in Lincoln Parkparking included"}
+4091;{"v":"BEST LOCATION EVER!WRIGLEY  BOYSTOWN "}
+4095;{"v":"BEST LOCATION EVER!WRIGLEY  BOYSTOWN "}
+4096;{"v":"BEST LOCATION EVER!WRIGLEY  BOYSTOWN "}
+4097;{"v":"BEST LOCATION EVER!WRIGLEY  BOYSTOWN "}
+4098;{"v":"LOCATION!LAKEVIEW SUPER BASE WRIGLEY "}
+4099;{"v":"LOCATION!LAKEVIEW SUPER BASE WRIGLEY "}
+4100;{"v":"LOCATION!LAKEVIEW SUPER BASE WRIGLEY "}
+4101;{"v":"LOCATION!LAKEVIEW SUPER BASE WRIGLEY "}
+4107;{"v":"3Bdrm New home w/view & party deck  2nd Floor"}
+4108;{"v":"LOCATION!LAKEVIEW SUPER BASE WRIGLEY "}
+4109;{"v":"LAKEVIEW HEART! BOYSTOWN WRIGLEY \"HOSTEL STYLE\" 2"}
+4110;{"v":"LAKEVIEW HEART! BOYSTOWN WRIGLEY \"HOSTEL STYLE\" 2"}
+4111;{"v":"LAKEVIEW HEART! BOYSTOWN WRIGLEY \"HOSTEL STYLE\" 2"}
+4116;{"v":"HYDE PARK GEM!PARKING INCLUDEDFALL/WINTER DEALS"}
+4117;{"v":"Charming MiniApt,Sleeps 3\nGated free parking"}
+4131;{"v":"Roscoe Village GemClose to Everything!"}
+4146;{"v":"Sophisticated River West 2 Bedroom  Near the \"L\"!"}
+4148;{"v":"Speakeasy Suite*Walk to Action, Bfast Included"}
+4150;{"v":"PRIVATE ROOM IN LAKEVIEW HEART! BOYSTOWN WRIGLEY"}
+4151;{"v":"MidCentury and Relaxing Retreat in the City."}
+4152;{"v":"Rustic ChiCity Loft/Wintrust/McCormick"}
+4153;{"v":"3 Bed, 2.5 bath Wicker Park/Bucktown Entire Apt."}
+4163;{"v":"Beautiful 3bedroom townhome"}
+4177;{"v":"Hostel Style Room & 5* Location WRIGLEY  LAKEVIEW"}
+4178;{"v":"HUGE  steps to (2nd) most beautiful park in City"}
+4179;{"v":"Old Town  Gold Coast 2 bedroom"}
+4183;{"v":"3 Bed Private Dorm  Wrigley Hostel"}
+4184;{"v":"8 Bed Female Dorm  Wrigley Hostel"}
+4190;{"v":"Old Town  Gold Coast "}
+4202;{"v":"Logan Square  Bright Suite"}
+4212;{"v":"Fort Washington  Close to Downtown, Top Bunk."}
+4213;{"v":"Fort Washington  Close to Downtown, Bottom Bunk"}
+4217;{"v":"Incredible park & lake views  luxury corner unit!"}
+4223;{"v":"Multilevel, near Transit and Lake/beach/park."}
+4232;{"v":"Private Room in 2 Bedroom Apartment  Wicker Park"}
+4233;{"v":"Cozy & Cute 3 BR Old Irving Park Apt. Great Area!"}
+4242;{"v":"4 BR  Center of it ALL!@Wrigleyville & Boystown"}
+4245;{"v":"Wicker Park/ Bucktown 1Bedroom shared apartment"}
+4246;{"v":"4bdrm, sleeps 10, fireplace cozy home!"}
+4249;{"v":"Private House in Roscoe Village  Sleeps 18!"}
+4259;{"v":"CELEBRITY HOTSPOT ll  RIVER NORTH CHICAGO."}
+4264;{"v":"One bedroom/semiprivate bath in Hyde Park"}
+4266;{"v":"South Shore Flat  20 minutes away from downtown"}
+4270;{"v":"Elegant Designer Home  Walk to Train/Restaurants"}
+4281;{"v":"River West 4 Bedroom  Stunning Renovation!"}
+4284;{"v":"Celeste Celebrity SuitesGrace Kelly"}
+4289;{"v":"SunFilled Artist Loft in the Hottest Neighborhood"}
+4291;{"v":"Luxury 43rdfloor suite at Grand Plaza near Magnificent Mile w/ pool, gym, more!"}
+4293;{"v":"Upscale, dogfriendly suite w/ shared pool, balcony & lake view!"}
+4295;{"v":"Swanky 42ndfloor, dog"}
+4298;{"v":"Elegant, dogfriendly suite close to the Magnificent Mile "}
+4300;{"v":"Family friendly, luxury suite w/ resort amenities pool, sauna, & gym! Dogs ok!"}
+4301;{"v":"2BR Chicago Townhome  20 Mins to Downtown!"}
+4311;{"v":"Private Floor  Renovated Townhome in Lincoln Park"}
+4314;{"v":"Dogfriendly suite w/ balcony, view, shared pool, gym & more "}
+4323;{"v":"Private Bedroom  Lakeview East"}
+4337;{"v":"Trendy Logan Square  Suite in Arts & Crafts Home"}
+4344;{"v":"Cozy Private Bed & Bath: Wicker Park (12 guests)"}
+4353;{"v":"AL Capone must stay unit Gold Coast Chicago"}
+4369;{"v":"02 & 03. Pair of Private Rooms  3 miles from NWU"}
+4370;{"v":"02. Private Room in Shared Apartment  3 mi to NWU"}
+4371;{"v":"Renovated Logan Square Home  3BR with Parking!"}
+4378;{"v":"Priv. BR/BA in French Bungalow  Near Lincoln Sq."}
+4379;{"v":"02a. Full bed in Coed room  3 mi to NWU"}
+4383;{"v":"Goddess Bedroom  Ukrainian Village Luxury Apt."}
+4385;{"v":"HIGHEND DOWNTOWN 1br/1ba ROOFTOP HOT TUB!"}
+4387;{"v":"Red Dragon Bedroom  Ukrainian Village Luxury Apt."}
+4393;{"v":"Cozy TwoBedroom Condominium"}
+4400;{"v":"Loftlike Wicker Park Condo Steps from the CTA!"}
+4416;{"v":"Cozy room near Wicker Park minutes from blue line"}
+4419;{"v":"Chic Designer Pad  Modern Meets Retro"}
+4420;{"v":"Bright, modern Wicker Park condo  sleeps 8"}
+4424;{"v":"03. Private Room in Shared Apartment  3 mi to NWU"}
+4425;{"v":"06. Entire Apartment in West Ridge  3 mi to NWU"}
+4434;{"v":"Couch Surf / Shuttle / 24 Hr Checkin / Hold Lugga"}
+4439;{"v":"New 2Level Home ??_?Ù\u008f near Wrigley (+Parking)"}
+4446;{"v":"United Center Pad2BD 2.5 BTH  FREE 3car parking"}
+4450;{"v":"Charming 2BR/2"}
+4471;{"v":"Historic 2 Bed 2 bath Downtown condo  River North"}
+4474;{"v":"The Red Room; Queen Bed in Vintage 3BR/1"}
+4493;{"v":"The Blue Room; Queen Bed in Vintage 3BR/1"}
+4494;{"v":"Brand New Designer Home  Steps from Wrigley Field"}
+4496;{"v":"9 Bed MiniMansion Sleeps 14 \"The Paris\"."}
+4503;{"v":"Condo Style On Red Line Subway "}
+4506;{"v":"The Purple Room;Twin Bed, Vintage 3BR/1"}
+4517;{"v":"Great location, Safe, Spacious, Chicago 1bedroom"}
+4521;{"v":"Private BR w Ensuite Bathroom; Heart of Wrigley"}
+4525;{"v":"LoftStyle 2BR in South Loop by Sonder"}
+4526;{"v":"The Winchester  Custom Home w Amazing Outdoors"}
+4538;{"v":"Traveler's Dream  1 bed in a shared space"}
+4587;{"v":"Beautiful HollywoodRidge Suite in Edgewater"}
+4595;{"v":"Gold Coast Getaway  Suite 1"}
+4597;{"v":"The Orleans  Entire Building (perfect for groups)"}
+4602;{"v":"Gold Coast Getaway  Suite 2"}
+4603;{"v":"Gold Coast Getaway  Suite 3"}
+4604;{"v":"Gold Coast Getaway  Entire Building (for groups)"}
+4611;{"v":"Central and Cozy W/ Free Parking Bridgeport/FP"}
+4630;{"v":"Brick & Timber Loft  West Loop"}
+4637;{"v":"03b.Twin in Coed Space  3 mi to NWU"}
+4640;{"v":"Bright, Clean, Cozy, Familystyle!"}
+4656;{"v":"Friendly Neighborhood Studio  Near Fulton!"}
+4662;{"v":"Room in Logan SQR  queen sized bed & private bath"}
+4664;{"v":"Top Floor Condo Next to Pequods!  Private Room"}
+4665;{"v":"HUGE BILEVEL APARTMENT IN AMAZING LOCATION"}
+4689;{"v":"A Bohemian Open Floor 2BDRM  Steps From Wrigley!"}
+4690;{"v":"A Delightful 2BDRM  Steps From Wrigley Field! ?__"}
+4693;{"v":"Wicker Park 2BR 2BA Modern Condo!"}
+4708;{"v":"?__?Ù\u008fRestored 2story Wrigley apt near bars and field"}
+4709;{"v":"Marvelous Private Room  Close to Wrigley Field ?__"}
+4723;{"v":"Private Guest Suite w/free Offstreet Parking"}
+4728;{"v":"Beautiful, dogfriendly suite w/ shared pool & sauna "}
+4743;{"v":"Amazing ArtInspired Apt. With Free Parking!"}
+4744;{"v":"Couch Surf/ Shuttle /24 Hr CheckIn /Hold Luggage"}
+4745;{"v":"Couch Surf / Shuttle / 24 Hr Checkin / Hold Lugga"}
+4757;{"v":"Cozy in ChiTown"}
+4771;{"v":"The Greenview Place  w/ Full Apartment Amenities!"}
+4776;{"v":"Bucktown Retreat  Why The Buck Not? Sleeps 1"}
+4782;{"v":"Homey Bungalow In South Shore  Chicago"}
+4783;{"v":"Large Beautiful Studio Apt  Steps from Union"}
+4784;{"v":"Gritty Chic River North  ACME Hotel"}
+4788;{"v":"Stylish 3 Bedroom Near Wrigley FREE Parking"}
+4793;{"v":"Uptown's ChiTown Private Bedroom"}
+4796;{"v":"2Bedroom Apartment in the Heart of Chicago/Pilsen"}
+4805;{"v":"WESTERN AVE ARTISTS LOFTS Park Free"}
+4813;{"v":"Nice Gold Coast Condo 2 bedroom"}
+4832;{"v":"Gritty Chic River North "}
+4846;{"v":"Amazing 4Bd single family 4 parking spot WLoopUIC"}
+4859;{"v":"Chic midcentury apartment in lovely West Town"}
+4864;{"v":"Great 24 Bedroom UofChicago Hyde Park/Woodlawn"}
+4873;{"v":"Private Bed & Bath + Garage for Longterm stays"}
+4893;{"v":"ChiTown Oasis #31  McCormick Place"}
+4894;{"v":"ChiTown Oasis #11  McCormick Place"}
+4899;{"v":"Ukrainian Village Oasisideal for public transit"}
+4908;{"v":"Great Space Near McCormick, Museums and UC 2"}
+4911;{"v":"Renovated Condo less than 10 min to McCormick  1N"}
+4912;{"v":"3 Bed Duplex Down Close to Loop and Hyde Park  1S"}
+4922;{"v":"Spacious room with private bath close to Wrigley!"}
+4927;{"v":"Room1  Bridgeport Comfy Private Room"}
+4930;{"v":"The Basecamp  Downtown, Chicago (Long Term)"}
+4945;{"v":"ChiTown Oasis #21  McCormick Place"}
+4949;{"v":"Huge Lightfilled townhome in Lincoln Park"}
+4955;{"v":"Wicker Park | Bright, Clean, Comfortable Walkup"}
+4960;{"v":"Comfortable Lightfilled Room "}
+4961;{"v":"HUGE 8BR Wicker Park Complex  sleeps 18+ adults!"}
+4974;{"v":"Gorgeous River North Condo unbeatable views!"}
+4984;{"v":"Private Bed and Bath  Heart of Chicago"}
+4989;{"v":"Room2  Bridgeport comfy room in chicago"}
+4998;{"v":"BEAUTIFULLY remodeled flat DOWNTOWN  Sleeps 10!"}
+4999;{"v":"BEAUTIFULLY remodeled flat downtown  Sleeps 10"}
+5010;{"v":"Huge lightfilled townhome in Lincoln Park"}
+5020;{"v":"3 Bedroom Lincoln Park Home  Walk to Park & Lake"}
+5021;{"v":"#Wrigley 3 bedroom  incredible location !!"}
+5022;{"v":"Large KingBed Room with Private Entrance"}
+5027;{"v":"Z4"}
+5029;{"v":"Z3"}
+5033;{"v":"Great Gold Coast Apartment  1 bedroom"}
+5034;{"v":"Z2"}
+5035;{"v":"Z1"}
+5042;{"v":"Chicago Holiday Festivities! The Clark  Luxury 2"}
+5055;{"v":"Luxury 2B/1.5B  panoramic views"}
+5057;{"v":"Wicker 3BR off Division St, calling groups 1  14!"}
+5072;{"v":"Spacious, cozy home in Bridgeport  free parking!"}
+5103;{"v":"Fort Springfield | 1Bed | 1"}
+5124;{"v":"Loft space in Lakeviewsteps from brownline"}
+5130;{"v":"Hotellike king bed master suite w/private bath"}
+5151;{"v":"The Drake! Brand new, fulltime AirBnB 2BR unit!"}
+5152;{"v":"A Short Walk from From Wrigley Field  2 BRM"}
+5153;{"v":"Upscale 2Bed, 1"}
+5162;{"v":"Huge Two Story Downtown Loft  Unbeatable Location"}
+5179;{"v":"Elegant modern home, 4bedrooms, 4"}
+5197;{"v":"The Wrigley Retreat  New Unit Sleeps 1"}
+5201;{"v":"Cozy 1bdrm apartment! Good for 1"}
+5204;{"v":"Lincoln Park  trendy, affordable, comfortable!"}
+5205;{"v":"Superclean and cozy room with a private bathroom"}
+5208;{"v":"B1  Next to Downtown Chicago "}
+5216;{"v":"Spacious 2 BR LoftWrigley/Lakeview/Boy's Town!"}
+5217;{"v":"Private Space in modern condo  Close to downtown!"}
+5221;{"v":"A OneWay Ticket to ComfortTown"}
+5229;{"v":"Uptown Private room in 2BR/2Bath condo"}
+5236;{"v":"Beautiful Corner Pilsen Bedroom  Unique Chicago"}
+5239;{"v":"The Orleans  Floor 2: Perfect for groups of 10"}
+5244;{"v":"The Orleans  Floor 3: Perfect for groups of 10"}
+5257;{"v":"StudioNext to McCormick Convention Center"}
+5268;{"v":"Nice and cozyMcKinley apartment"}
+5272;{"v":"Minimal room in Sunny Apartment  Wrigleyville"}
+5279;{"v":"Entire highrise apartment at the heart of downtown"}
+5282;{"v":"SUNNY 1 BEDROOM IN BEAUTIFUL LINCOLN PARK CHICAGO"}
+5283;{"v":"SPACIOUS 3BR APT/WALKING DISTANCE TO CTA STOPS"}
+5288;{"v":"Wrigleyville Flat  Bright spacious 3BR/1BATH"}
+5294;{"v":"Picture Perfect Pied??"}
+5299;{"v":"Luxury in Logan Square The Pasadena Room"}
+5316;{"v":"Skylit Bucktown Boho Retreat  Sleeps 5!"}
+5331;{"v":"The Pinnacle  Peace, Perfection, Practicality"}
+5332;{"v":"2Stories of Family Fun???Lincoln Park+Sauna+Balcony"}
+5344;{"v":"Your perfect, pied??"}
+5349;{"v":"New  Amazing Views on 36th Floor in River North"}
+5356;{"v":"Nearby Everything! Entire Top Floor  2 BR 1 Bath"}
+5359;{"v":"FIRSTclassAp AIRPORT30minDOWNTOWN15minGarageRests"}
+5363;{"v":"LUX 5BED Bungalow In Chicago  Close to transport!"}
+5373;{"v":"Cozy, welllit apartment in Logan Square"}
+5381;{"v":"North Center Hideaway  Free Parking!"}
+5385;{"v":"Victorian POPUP!"}
+5392;{"v":"Huge Modern Duplex Loft near Wrigley  Sleeps 12!"}
+5398;{"v":"Cool & Modern 3 Bedroom Near Wrigley FREE Parking"}
+5406;{"v":"Extra Large StudioChicago Downtown"}
+5412;{"v":"B2  Next To Downtown Chicago "}
+5413;{"v":"B3  Chicago Next to Downtown "}
+5418;{"v":"Top of West Town Charm  1BR Apt has all you need!"}
+5421;{"v":"FullyStocked Safe 2BD "}
+5423;{"v":"ExtraLarge FullyFurnished Studio"}
+5425;{"v":"B6  Private Room Next to Downtown Chicago"}
+5426;{"v":"The Burrow A Rogers Park Haven"}
+5427;{"v":"B7  Next to Downtown Chicago "}
+5431;{"v":"Large 12 Bedroom Chicago Home Sleeps 25"}
+5433;{"v":"B4  Chicago Next to Downtown "}
+5439;{"v":"Cool and Spacious 2 bed  2.5 bath duplex"}
+5442;{"v":"MEGA LISTING!PERFECT FOR GROUPS OF 50 115"}
+5445;{"v":"B8 Comb 1"}
+5446;{"v":"Spacious 3level house in Irving Park, nr Wrigley"}
+5487;{"v":"Wicker Park: NewlyFurnished Nest Close To It All!"}
+5490;{"v":"Luxury 5 Bed/3 bath West Loop  Walk to City!"}
+5501;{"v":"HighRise Near Skydeck & Loop, Bright & Spacious"}
+5506;{"v":"Bronzeville/Hyde Park StudioFree Parking Included"}
+5513;{"v":"2Story Home ??? Old Town w/Parkin & Walk to Subway"}
+5515;{"v":"Gorgeous Home  With Yard "}
+5517;{"v":"Entire TopFloor 2bd/1ba Condo in Wicker Park"}
+5531;{"v":"Right at Home on Wrightwood  Plus a Backyard!"}
+5547;{"v":"Midcentury Studio"}
+5550;{"v":"Our Cubbie Hole  60 seconds to Wrigley!"}
+5551;{"v":"Futon in 1S common areawalk to blue line train"}
+5554;{"v":"Welllit, comfortably sized studio in Hyde Park"}
+5565;{"v":"Wicker Park Oasis in the City Steps to EVERYTHING"}
+5566;{"v":"ChiTown Oasis #32  McCormick Place"}
+5571;{"v":"B9 comb 2"}
+5578;{"v":"Spacious Lakeview Condo Walk to Wrigley!"}
+5579;{"v":"Hotelier Host  Wrigley/Boystown. Pvt Roof, Bath"}
+5586;{"v":"The Woodlawn Grey Large 3bd/3ba Apt by UChicago"}
+5587;{"v":"Penthouse LoftStyle Pad in North Kenwood"}
+5592;{"v":"West side bedroom for 12 adventurers"}
+5594;{"v":"Bunk beds for 12 adventurers "}
+5607;{"v":"Bucktown Home  Great Location!"}
+5608;{"v":"#McCormick 2blocks | Fast Wifi | King Bed2baths"}
+5615;{"v":"Chicago Getaway  Private room"}
+5620;{"v":"Private Entrance&Bathroom Safe&Bright in Logan Sq"}
+5630;{"v":"DOWNTOWN; WALK TO EVERYTHING:LUXURY 2BED CONDO"}
+5646;{"v":"2BD/2BA Home  Close to CTA "}
+5651;{"v":"Residential HighRise Near Downtown With Parking"}
+5652;{"v":"Private Room  Simple and Cozy"}
+5654;{"v":"Bed in 2S common area 5 mins walk to train"}
+5656;{"v":"Gorgeous Vintage StylishHome  Bucktown Oasis"}
+5657;{"v":"MandoStay 2  Peaceful Apt free gated parking"}
+5658;{"v":"Lincoln Park  Second (private) Bedroom and Bath"}
+5659;{"v":"2 Bedroom Bucktown Apartment  So Charming!"}
+5664;{"v":"2Level Quiet Comfort 3BD/3BA Wicker Park"}
+5674;{"v":"MANSION SHARED BEDROOM 4BED C_BOTTOM BUNK"}
+5676;{"v":"MANSION SHARED BEDROOM 4BED D_TOP BUNK"}
+5698;{"v":"Lincoln Square Home  Close to CTA "}
+5715;{"v":"The Augustan  Delightful Comfort"}
+5734;{"v":"FamilyFriendly Fun in Lincoln Square"}
+5738;{"v":"Hermosa Homestead  Single room"}
+5745;{"v":"MANSION SHARED BEDROOM 4BED B_TOP BUNK"}
+5750;{"v":"Cozy highrise apartment 1.5 miles from down town"}
+5753;{"v":"Little Italy Brownstone  private room"}
+5754;{"v":"Smith Park  Private Room, whole floor"}
+5762;{"v":"Sunny Stay Wicker Park 1BRPriv BathFree Parking"}
+5765;{"v":"Spacious top floor condo  walk to Wrigley/Lake MI"}
+5766;{"v":"Hip Getaway in Logan Square Newly Renovated!"}
+5767;{"v":"Spacious, 1 bedroom Garden Apartment"}
+5768;{"v":"Private Logan Square 2bed apt w/great kitchen!"}
+5769;{"v":"2Story Coach House in Old Town! Great Location!"}
+5772;{"v":"Spacious Master Bedroom with WalkIn Closet"}
+5780;{"v":"New! Super Host10 mins to WRIGLEY! Home of CUBS??_?Ù\u008f"}
+5781;{"v":"New! Super Host  Cute Studio 10 mins to WRIGLEY??_?Ù\u008f"}
+5782;{"v":"New! Super Host  Cozy Studio 10 mins to WRIGLEY??_?Ù\u008f"}
+5789;{"v":"Large quiet 2bedroom apt in premier location!"}
+5795;{"v":"LoftStyle Home w/ Overnight Parking 6pm to 8am"}
+5798;{"v":"Spacious Convertible Apartment  Up to 4 Guests"}
+5800;{"v":"East Lincoln Park Gem  3 Bedroom Coach House"}
+5802;{"v":"Wrigleyville Greystone with Parking  Sleeps 28!"}
+5807;{"v":"Near Downtown ChicagoPilsen"}
+5810;{"v":"The JP inn  Explore Chicago from safe 4 BR home"}
+5823;{"v":"The Karlov Connection  O???Hare + Wrigley Gateway!"}
+5827;{"v":"2 Bedrooms in the Best Location  Noble Square!"}
+5830;{"v":"Cozy HideAway Just 10 Mins From Midway Airport"}
+5833;{"v":"Jefferson ParkFree parking! 15 min ORD/Downtown1"}
+5838;{"v":"River West Luxurious 3 BR/2 BA  Close to Downtown"}
+5841;{"v":"Luxury 5 bed / 3 Bath West Loop  Walk the City!"}
+5863;{"v":"Brand new stylish apt with all the cozy comforts!"}
+5865;{"v":"Nice room  2 blocks from Logan Square CTA Station"}
+5867;{"v":"Stunning Wrigleyville Home w/ Parking  Sleeps 20!"}
+5868;{"v":"Lightfilled Chicago Charmer in Wicker Park"}
+5872;{"v":"Southport Corridor Apartment  Renovated"}
+5873;{"v":"Entire Home Getaway  With Yard and Parking!"}
+5882;{"v":"Stunning 3Level House in Chicago w/ FREE Parking"}
+5889;{"v":"MANSION SHARED BEDROOM 4BED A_BOTTOM BUNK"}
+5890;{"v":"MANSION SHARED BEDROOM 4BED E_TOP BUNK"}
+5904;{"v":"FANTASTIC CLOSE TO MILLENNIUM PARK  STUDIO"}
+5909;{"v":"3bed 2"}
+5911;{"v":"APT for 6  15 MIN FROM DOWNTOWN"}
+5934;{"v":"ChiTown Oasis Grand Suite  McCormick Place"}
+5943;{"v":"Ridgeway Duplex 2  Trendy Logan Square"}
+5949;{"v":"Safe ExposedBrick 3bd (+Free PARKING Spot)"}
+5951;{"v":"TopFloor Lakeview Condo"}
+5957;{"v":"Lincoln Park  Great location!"}
+5965;{"v":"Chicago (Upscale Neighborhood) MultiUnit Estate"}
+5973;{"v":"HighRise Bright & Spacious Near Loop and Skydeck"}
+5979;{"v":"Chicago  Private room Queen size bed"}
+5987;{"v":"Vintage Bridgeport Garden Suite  Hott Location"}
+6028;{"v":"Quaint 2room studio in Uptown!"}
+6056;{"v":"Conveniently located 2bedroom + 2"}
+6099;{"v":"Do not use  broken list Lush Ukrainian Village."}
+6102;{"v":"Rogers Park VintageInspired Studio"}
+6105;{"v":"Comfy Chinatown Chicago Chillspot!"}
+6109;{"v":"Bronzeville Oasis  Entire Basement"}
+6111;{"v":"Beautiful, Comfy Room  Free Parking, Near Loop"}
+6163;{"v":"Avondale / Logan Sq. 2nd Floor  Parking"}
+6175;{"v":"HUGE SPACE  TWO LEVELS OF LIVING "}
+6180;{"v":"Close to Downtown/UICSharerd Bedroom"}
+6199;{"v":"Luxury Highrise Condo  Lincoln Park"}
+6205;{"v":"Chicago Apartment  Great Location!"}
+6212;{"v":"Sophisticated, 2BR Luxury Condo in Old Town"}
+6216;{"v":"Private room #2  only 15 minutes from Downtown!"}
+6217;{"v":"Cozy & Comfort Doubleroom close to downtown"}
+6219;{"v":"Cozy bedroom in midcentury modern apartment"}
+6226;{"v":"Ridgeway Duplex 1  Trendy Logan Square"}
+6237;{"v":"1880's Victorian Greystone  Room #2 (low monthly)"}
+6243;{"v":"CUBS playoffs 15min to WRIGLEY??_?Ù\u008f"}
+6250;{"v":"Huge Master Suite  ONE block from Blue Line"}
+6257;{"v":"SHROOM MARLYN 17 MINS TO DOWTOWN"}
+6261;{"v":"Modern Urban Suite  West Town, Centrally Located"}
+6268;{"v":"Electric Hotel2B1B"}
+6282;{"v":"CUBS season playoffs  15min to WRIGLEY??_?Ù\u008f"}
+6283;{"v":"CUBS playoffs 10min train ride to WRIGLEY??_?Ù\u008f"}
+6285;{"v":"Marathon Weekend!Modern  15min to Grant Park??_?Ù\u008f"}
+6293;{"v":"B5 Next to Downtown Chicago "}
+6296;{"v":"3 Bed Wrigley home w/view & party deck  3rd Fl"}
+6297;{"v":"3BD Condo Awesome location Near U of C campus!"}
+6298;{"v":"Comfy 1 bedroom apartment, parking, WiFi, fruits"}
+6309;{"v":"South Loop's luxury 1bed condo"}
+6315;{"v":"Stunning Victorian Greystone  Near United Center"}
+6316;{"v":"Cozy Room in Modern Apartment Steps from Wrigley!"}
+6320;{"v":"Near UIC/DowntownPrivate BR in Medical District"}
+6324;{"v":"Humboldt Park Artist Loft  1,500 sq. feet"}
+6325;{"v":"MidCentury Modern Loft "}
+6332;{"v":"PenthouseLevel Guest Room: Heart of River North"}
+6336;{"v":"Cozy 2bedroom a block away from Millenium Park"}
+6339;{"v":"Our Second Cubbie Hole  60 Seconds to Wrigley!"}
+6340;{"v":"West Town Private Room"}
+6344;{"v":"ROOM B 18 MINSDOWNTOWN BY TRAIN CLOSE HOSPITALS"}
+6348;{"v":"??? Cozy Home in Lakeview  Walk to Wrigley Field"}
+6353;{"v":"HighRise Apartment The Loop Millennium Park"}
+6356;{"v":"Chicago Multiunit building"}
+6360;{"v":"Best Location in Wicker Park Loft Life"}
+6373;{"v":"Upscale Southport Corridor Condo  Close to Train"}
+6378;{"v":"Hotel Comfort at the Raffaello  Double Studio"}
+6382;{"v":"Chic & natural w new kitchen, 12min to Wrigley??_?Ù\u008f"}
+6392;{"v":"Urban Retreat and Farmhouse  Welcome Home"}
+6393;{"v":"Chicago Multiunit building"}
+6396;{"v":"Eclectic Vibes in Logan  Walk to the Blue Line!"}
+6407;{"v":"Cute 2nd FL 2BR/1BA  McCormick/WhiteSox/Chinatown"}
+6420;{"v":"CHICAGO ROOM WITH FREE PARKING & A LATE CHECKOUT"}
+6427;{"v":"Suburb in the City"}
+6431;{"v":"1S private room N  walk to trainë\u008d«_?"}
+6437;{"v":"Cozy, welllit room in shared Logan Square apt"}
+6449;{"v":"Prairie House  Rooms (per night) close to UofC."}
+6450;{"v":"Harper House  Hyde Park"}
+6455;{"v":"Sunny Stay in Wicker Park2Bed/2Bath (Full Condo)"}
+6471;{"v":"Sunny & Modern 2Bed in Trendy Logan Square"}
+6486;{"v":"Oasis In The Chi  HOME"}
+6493;{"v":"South Side Soul The Blues"}
+6497;{"v":"South Side Soul Tickle Me Pink"}
+6499;{"v":"1 BR  1920s Charmer (Walk to CTA and Metra)"}
+6508;{"v":"Large 3 Bedroom SLEEPS 16 Andersonville Hot Spot"}
+6512;{"v":"Charming, Familyfriendly Apt Near City Center/UIC"}
+6524;{"v":"Private Bed and Private Bath  Heart of the City"}
+6535;{"v":"Upscale 1bd/1ba  South Loop Chicago"}
+6536;{"v":"Chicagosouth loop"}
+6538;{"v":"ChiTown Oasis King Suite  McCormick Place"}
+6553;{"v":"South Loop Modern Loft Apartment  1bd/1ba"}
+6554;{"v":"2BD/2BA Luxury Apartment  w/Gym & Parking"}
+6556;{"v":"2 Bedroom South Loop Loft  Fast Wifi, Parking"}
+6557;{"v":"2bd/2ba Grant Park  King Bed, Fast Wifi, Parking"}
+6558;{"v":"Downtown Chicago 2bd/2ba  Private Apartment"}
+6559;{"v":"MANSION SHARED BEDROOM 4BED F_BOTTOM BUNK(Full size"}
+6564;{"v":"Dormigo ThreeBedroom, By the Lake"}
+6599;{"v":"Chicago Loop apt  Great view of the Chicago River"}
+6607;{"v":"Bright, Spacious, FamilyFriendly Apartment"}
+6621;{"v":"Cozy and quiet HUGE onebedroom "}
+6626;{"v":"Frank Lloyd Wright Inspired ApartmentWicker Park"}
+6676;{"v":"Entire 2bed 2"}
+6681;{"v":"Cozy, quiet, artsy, vintage, queerfriendly room"}
+6682;{"v":"Sunny, quiet 1bed near park and lake"}
+6693;{"v":"Exquisite 7 br House in Best Area Sleeps 31"}
+6701;{"v":"New to AirBnB Lincoln Square SAFE and Quiet"}
+6703;{"v":"G1. Next to Downtown!Best locationmost affordable"}
+6706;{"v":"Chicago Multiunit building"}
+6709;{"v":"Oasis in The Chi  QUEEN2"}
+6711;{"v":"Highrise Lux 2B/1B at Riverwalk 5 stars amenities"}
+6723;{"v":"Convenient Modern 1bed Apt in University Village"}
+6728;{"v":"Best Chicago Location  Business or Pleasure!"}
+6734;{"v":"Private Rm in house treelined st., walk to train"}
+6744;{"v":"New! Andersonville near ??_?Ù\u008fWrigley 9min train ride"}
+6746;{"v":"GORGEOUS New Apt14m to OHare/13 to Loop"}
+6747;{"v":"Superhost! Logan Square 5min to Trendy Nightlife"}
+6755;{"v":"BOHEMIAN LODGE #17Clean & Affordable Travel"}
+6758;{"v":"Creative 2BR in Lakeview  Near Wrigley & the Lake"}
+6773;{"v":"SunFilled King Room in Boutique Wicker Park B&B"}
+6789;{"v":"NEAR WRIGLEY W/ LAKEVIEW AND 2 BALCONY"}
+6797;{"v":"Traveler's Dream  1 bed in a shared room"}
+6800;{"v":"Vibrant 3BRC at The Plymouth by Sonder"}
+6801;{"v":"Posh Loft near McCormick & DowntownParking Avail!"}
+6806;{"v":"Hip 2BRA at The Plymouth by Sonder"}
+6807;{"v":"Hip 2BRB at The Plymouth by Sonder"}
+6808;{"v":"Hip 2BRC at The Plymouth by Sonder"}
+6809;{"v":"Hip 2BRD at The Plymouth by Sonder"}
+6810;{"v":"Intimate 2BRA at The Plymouth by Sonder"}
+6811;{"v":"Intimate 2BRB at The Plymouth by Sonder"}
+6812;{"v":"Intimate 2BRC at The Plymouth by Sonder"}
+6813;{"v":"Bright 2BRA at The Plymouth by Sonder"}
+6814;{"v":"Bright 2BRB at The Plymouth by Sonder"}
+6815;{"v":"Chic 3BRA at The Plymouth by Sonder"}
+6818;{"v":"Luxury 4BRA at The Plymouth by Sonder"}
+6819;{"v":"Luxury 4BRB at The Plymouth by Sonder"}
+6820;{"v":"Luxury 4BRC at The Plymouth by Sonder"}
+6821;{"v":"Superior 4BRA at The Plymouth by Sonder"}
+6822;{"v":"Superior 4BRB at The Plymouth by Sonder"}
+6823;{"v":"Superior 4BRC at The Plymouth by Sonder"}
+6824;{"v":"Superior 4BRD at The Plymouth by Sonder"}
+6825;{"v":"Executive 4BRA at The Plymouth by Sonder"}
+6826;{"v":"Executive 4BRB at The Plymouth by Sonder"}
+6827;{"v":"Chic 3BRB at The Plymouth by Sonder"}
+6828;{"v":"Chic 3BRC at The Plymouth by Sonder"}
+6829;{"v":"Chic 3BRD at The Plymouth by Sonder"}
+6830;{"v":"Vibrant 3BRA at The Plymouth by Sonder"}
+6831;{"v":"Vibrant 3BRB at The Plymouth by Sonder"}
+6832;{"v":"Vibrant 3BRD at The Plymouth by Sonder"}
+6833;{"v":"Sunny 3BRA at The Plymouth by Sonder"}
+6834;{"v":"Sunny 3BRB at The Plymouth by Sonder"}
+6839;{"v":"Great 2bed in the heart of Downtown Chicago"}
+6847;{"v":"Private Trendy City Flat 2BDRM 12 Night Stays"}
+6851;{"v":"Rehabbed Lakeview Townhome w/ Parking  Sleeps 10!"}
+6861;{"v":"???Chicago Lifestyle Experience  5 min to L Station"}
+6863;{"v":"NEW! Cozy Logan Square Apt  Walk to Bars & the L!"}
+6874;{"v":"?_? Private 2BR  5 mins to L + FREE Parking"}
+6876;{"v":"A Sunny 2BR in Wicker Park  Perfect Location ??_?Ù\u008f"}
+6885;{"v":"Hip MidCentury 2 bed 2 bath in Logan Square"}
+6893;{"v":"East Village 949"}
+6909;{"v":"Gold Coast Vintage 1 Bed  Incredible Location!"}
+6910;{"v":"221 Room 1  A Private Room in Heart of Chinatown"}
+6912;{"v":"Private Apt. UVillage, Little Italy  Jan. Rental"}
+6913;{"v":"Beautiful Room for 23 in Pilsen, Chicago!"}
+6918;{"v":"Bright familyfriendly Lincoln Square 2"}
+6919;{"v":"221 Room 6  A Private Room in Heart of Chinatown"}
+6920;{"v":"221 Room 3  A Private Room in Heart of Chinatown"}
+6930;{"v":"***Chicago Home  Walk to Everything! **"}
+6946;{"v":"Handsome McCormick 3BD2BA Loft"}
+6951;{"v":"3 Bedroom condo  heart of city in Roscoe Village!"}
+6953;{"v":"Comfy Executives Studio  STEPS from Train!"}
+6975;{"v":"Chic Room in Sunny Apartment  Designer's Dream ??_?Ù\u008f"}
+6976;{"v":"Large 2bedroom @ Loop (Lakeshore East)"}
+6977;{"v":"Modern Room in Stylish Apartment  Wicker Park ??_?Ù\u008f"}
+6993;{"v":"IP Walk to Cubs GamePrivate Attic Home"}
+6995;{"v":"IP Cubs Game Private Home  Live like a local!"}
+7000;{"v":"IP Wrigley Field Attic 3bedroom apartment"}
+7001;{"v":"IP Wrigley Field Attic 3bedroom apartment"}
+7003;{"v":"Charming InLaw"}
+7008;{"v":"Fabulous 2BRHot Lincoln Park"}
+7012;{"v":"Private RoomHeart of Andersonville w/Parking"}
+7020;{"v":"Near University of Chicago  Next to CTA & EXPWY"}
+7040;{"v":"Room #2 Home Away From Home  Close to bus stop"}
+7052;{"v":"*Beautiful Spacious Home 4br/2b* 10min downtown"}
+7055;{"v":"5 min to Chicago's McCormick/LoopLofted Beauty!"}
+7057;{"v":"Your Home Away from HomeSouth Loop Chic Loft"}
+7065;{"v":"Traveler's Dream  1 bed in shared room"}
+7066;{"v":"Traveler's Dream  Shared room at Magnificent Mile"}
+7067;{"v":"AirBnB meets Hotel  1 bedroom"}
+7068;{"v":"1 Bed in Shared Room  Hostel & Hotel at Mag Mile"}
+7072;{"v":"Bright and Charming Chitown Apartment"}
+7073;{"v":"5 Midway & McCormick house top entire place"}
+7079;{"v":"Cozy room off Chinatown  steps from the Line!"}
+7081;{"v":"Quiet 4bedroom apartment steps from trains"}
+7091;{"v":"2 Bedroom Next to DePaul  Stunning!"}
+7131;{"v":"Living Large in Lincoln Square..On the BrownLine!"}
+7134;{"v":"Heart of Boystown in Lakeview! 2bedroom gem!"}
+7161;{"v":"Chicago Multiunit close to united center"}
+7163;{"v":"1214 Midway McCormick 3 bedroom entire place"}
+7171;{"v":"Brick and Timber Loft  A visitors dream"}
+7174;{"v":"Cozy 3 bedroom apartment  15 min to Downtown"}
+7176;{"v":"Two Bedroom Walkup in Wicker Park"}
+7187;{"v":"Gorgeous 2bd apt in Oldtown & close to Downtown!"}
+7188;{"v":"Luxury highrise apartment by museum"}
+7197;{"v":"Lakeview 3BR Duplex  10 minute Walk to Wrigley!"}
+7201;{"v":"Welcome Back  Private Room"}
+7220;{"v":"Sawyer getaway in Logan Square"}
+7221;{"v":"ShabbyChic Loft with Optional Parking Spot"}
+7232;{"v":"NEW LISTING! Dogfriendly condo w/balcony, city views & shared pool/sauna/gym"}
+7243;{"v":"Sunny, private 1bedroom in a top floor loft!"}
+7248;{"v":"Well Appointed Private Room  w/Garage Parking!"}
+7249;{"v":"Roscoe Manor GetA"}
+7255;{"v":"NEW in East Lakeview!Intransit On Brown"}
+7265;{"v":"Shared bed room in a Manshion Bed G"}
+7277;{"v":"Wicker Park??? Modern & Stylish House, Ensuite Room"}
+7297;{"v":"Spacious Studio in Lincoln Park  Incredible Views"}
+7308;{"v":"Palmer Treehouse  entire apartment"}
+7312;{"v":"Vintage Uki Village Charmer  Quiet + Cozy 2 BDR"}
+7314;{"v":"Hip Chicago apartment  free parking spot included"}
+7319;{"v":"Charming Inlaw apartment belmont/Cragin area"}
+7322;{"v":"Homebase in Wrigleyville!Steps to the RedLine"}
+7323;{"v":"Spacious Studio  Incredible Views in Lincoln Park"}
+7329;{"v":"New 4BR European Design Duplex  5min to Downtown"}
+7337;{"v":"Private Retreat: Master BedroomHome away frm Home"}
+7339;{"v":"Loop / Grant Park 2Bedrooms 2 bathrooms 1204"}
+7341;{"v":"Unique Wrigleyville GEM  SAFE & Walk to Train!"}
+7342;{"v":"Downtown Chicago GEM  Awesome 3bdr STEPS to Train"}
+7344;{"v":"West Town Vintage Living  LGBTQ/420 Friendly"}
+7358;{"v":"#Spacious 3 bd/2ba near McCormick | Fast WIFI"}
+7364;{"v":"TopNotch Top"}
+7378;{"v":"Spacious Home Group/Family in Gold CoastOld Town"}
+7385;{"v":"3Story Spacious Home ??? Lincoln Park w/ Parking"}
+7394;{"v":"Cozy + Modern 2Bed near Wrigley "}
+7405;{"v":"Luxurious onebedroom condo"}
+7409;{"v":"Luxury 43rdFloor 1 BR w/ STUNNING VIEW"}
+7431;{"v":"VintageChic 3 Bedroom Condo in West Town"}
+7435;{"v":"Sleeps 2, Bright Gold Coast Luxury Highrise"}
+7436;{"v":"2 Bedroom / 2 bath  Grand park 903"}
+7443;{"v":"The Fun & Spacious Wicker Park Home  5 King Beds!"}
+7445;{"v":"HighEnd River North for monthly stays"}
+7450;{"v":"Well appointed, Great Location  3 Bedroom Apt"}
+7453;{"v":"One Bedroom Apartment  Great location"}
+7459;{"v":"Cozy TwoBedroom in Charming Roscoe Village"}
+7463;{"v":"Chicago  Lincoln Park Mansion "}
+7468;{"v":"The Huge Three Story Manor  8 King Beds!"}
+7469;{"v":"Hip Bucktown TriLevel Townhome With Free Parking"}
+7470;{"v":"Old Town Pied??"}
+7471;{"v":"Comfy and Convenient Logan Square Multiunit"}
+7488;{"v":"HighRise Steps to Loop,Millennium Park & Stores"}
+7495;{"v":"HighRise 10 min Walk to Downtown Loop & Skydeck"}
+7517;{"v":"1 BR in Lincoln Park, w/ Gym, Pool & Rooftop, 15minute train ride from the Loop (26)"}
+7527;{"v":"Private room in awesome apartment  pups welcome!"}
+7534;{"v":"Lovely Lakeview Loft!  Safe + Walk to Train"}
+7556;{"v":"Spacious and Stylish  Private Room in Edgewater"}
+7557;{"v":"D1Chicago Downtown View "}
+7561;{"v":"DOWNTOWN STYLISH ROOM WITH EARLY CHECKIN, PARKING"}
+7562;{"v":"D2  Chicago Downtown View "}
+7563;{"v":"D3  Downtown View Chicago "}
+7565;{"v":"Magnificent artfilled loft in Chicago's Loop!"}
+7571;{"v":"Massive 2Story Home ??? Lincoln Park w/ Balcony"}
+7580;{"v":"Bottom Bunk  Shared Room"}
+7581;{"v":"Top Bunk  Shared Room"}
+7586;{"v":"Entire Level in Old Town with Parking Rare Find!"}
+oldColumnGroupCount=0
+/ec/

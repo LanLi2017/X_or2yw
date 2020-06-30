@@ -1,0 +1,47 @@
+{
+    "id": 1591902689351,
+    "description": "Text transform on 4 cells in column Last name: value.toUppercase()",
+    "time": "2020-06-11T18:59:00Z",
+    "operation": {
+        "op": "core/text-transform",
+        "description": "Text transform on cells in column Last name using expression value.toUppercase()",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Last name",
+        "expression": "value.toUppercase()",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10
+    },
+    "op": "MassCellChange",
+    "commonColumnName": "Last name",
+    "updateRowContextDependencies": "true",
+    "cellChangeCount": "4",
+    "(0, 3)": {
+        "row": "0",
+        "cell": "3",
+        "old": "{\"v\":\" Grey\"}",
+        "new": "{\"v\":\" GREY\"}"
+    },
+    "cellindex": 3,
+    "(1, 3)": {
+        "row": "1",
+        "cell": "3",
+        "old": "{\"v\":\" Johnson\"}",
+        "new": "{\"v\":\" JOHNSON\"}"
+    },
+    "(2, 3)": {
+        "row": "2",
+        "cell": "3",
+        "old": "{\"v\":\" Jenkins\"}",
+        "new": "{\"v\":\" JENKINS\"}"
+    },
+    "(3, 3)": {
+        "row": "3",
+        "cell": "3",
+        "old": "{\"v\":\" Smith\"}",
+        "new": "{\"v\":\" SMITH\"}"
+    }
+}
