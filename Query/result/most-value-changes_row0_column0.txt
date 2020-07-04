@@ -1,0 +1,1 @@
+['hybrid5', 4, "Text transform on cells in column Login email using expression grel:value.split('@')[0]"]
