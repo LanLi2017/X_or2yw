@@ -5,8 +5,10 @@ import glob
 import json
 import operator
 import os
+import re
 
 import Options
+import pandas as pd
 
 
 def getvalue(data: str):
@@ -18,6 +20,13 @@ def getvalue(data: str):
             return value['v']
         except TypeError:
             return None
+
+
+def get_ori_value(curdata: pd.DataFrame, row: int, column: int, datas):
+    # query: # what's the original value of a single cell (row, column)?
+    changed_cell_list = list_changed_cells(datas)
+
+    return 0
 
 
 # trace from JSON file, and query
@@ -86,6 +95,19 @@ def cell_dep():
     pass
 
 
+def list_changed_cells(datas):
+    res = []
+    for d in datas:
+        data = d[1]
+        for key,value in data.items():
+            z = re.match(r'^\((\d+), (\d+)\)$', key)
+            if z:
+                res.append((int(z.group(1)), int(z.group(2))))
+    # return list of changed cell at (row, column)
+    # remove duplicates
+    return list(set(res))
+
+
 def most_changes(data: dict):
     # query: which operation in which step changes the most cells value?
     # opname = 'single-edit'
@@ -124,6 +146,9 @@ def main():
     args = Options.get_args()
     row = args.row
     column = args.column
+    # get dataframe current dataset
+    data_path = f'.././data/{args.data}'
+    cur_data = pd.read_csv(data_path,index_col=False)
 
     # row = 2
     # column = 1
@@ -152,9 +177,9 @@ def main():
     datas = zip(filenames, merge_data)
 
     # return choice: 1. operations 2. cell changes
-    if return_command == 'changes':
+    if return_command == 'changes-single-cell':
         res = list_changes_cell(row, column, datas)
-    elif return_command == 'operations':
+    elif return_command == 'operations-single-cell':
         res = list_operations(datas,column, row)
     elif return_command == 'most-value-changes':
         # for column addition: newCellCount
@@ -173,10 +198,14 @@ def main():
                 max_count = count
                 max_desc = desc
             res = [filename, max_count, max_desc]
-    elif return_command == 'count-changes':
+    elif return_command == 'count-changes-single-cell':
         res = count_change_cell(row, column, datas)
-    elif return_command == 'count-operation':
+    elif return_command == 'count-operation-single-cell':
         res = count_op_cell(row, column, datas)
+    elif return_command == 'reverse-data':
+        res = get_ori_value(cur_data,row, column)
+    elif return_command == 'list-changed-cells':
+        res = list_changed_cells(datas)
 
     # output = f'result/{args.out}'
     # log_folder = 'result/'
@@ -186,8 +215,11 @@ def main():
 
     if return_command == 'most-value-changes':
         output = f'{log_folder}/{return_command}.txt'
+    elif return_command == 'list-changed-cells':
+        output = f'{log_folder}/{return_command}.txt'
     else:
         output = f'{log_folder}/{return_command}_row{args.row}_column{args.column}.txt'
+
     with open(output, 'w')as file:
         file.write(str(res))
     return res

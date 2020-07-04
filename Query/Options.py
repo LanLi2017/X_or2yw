@@ -35,4 +35,10 @@ def get_args():
         default='result',
         help='output folder'
     )
+    parser.add_argument(
+        "--data",
+        type=str,
+        default='1660451457167_clean.csv',
+        help='input current data for reversing'
+    )
     return parser.parse_args()

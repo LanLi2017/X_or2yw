@@ -12,6 +12,12 @@ from pprint import pprint
 import Options
 from parse_orhistory import parse_txt
 from parse_orhistory.parse_txt import func_map, name_map
+import pandas as pd
+
+
+def create_folder(foldername):
+    if not os.path.exists(foldername):
+        os.makedirs(foldername)
 
 
 def unzip(rootPath, pattern):
@@ -88,9 +94,66 @@ def pair_recipe_history(rootPath, path, log):
     return file
 
 
-def extract_history(history_path):
+def refine_cells(cells:list):
+    # cells: [{"v":"laura"},{"v":2070},{"v":" LAURA"},{"v":" GREY"},{"v":"user"}]
+    res = []
+    for cell in cells:
+        if cell:
+            value = cell['v']
+            # pprint(value[0])
+        else:
+            # if the values of the whole column are null
+            value = cell
+        res.append(value)
+    return res
+
+
+def extract_data(data_path):
     ''' '''
-    pass
+    ''' extract current dataset from data.txt'''
+    with open(data_path, 'r')as f:
+        data = f.readlines()
+    data = [x.strip() for x in data]
+    idx = 0
+    # current dataset
+    dataset = []
+    # column metadata
+    columnmodel = {}
+
+    while idx < len(data):
+        line = data[idx]
+
+        # column model: get column
+        if re.match(r'^columnCount=\d+$', line):
+            columncount = int(line.rsplit('=',1)[1])
+            colindx = data[idx+1: idx+1+columncount]
+            for col in colindx:
+                colmodel = json.loads(col)
+                cellindex = int(colmodel['cellIndex'])
+                name = colmodel['name']
+                columnmodel.update({cellindex: name})
+            idx += 1
+        if re.match(r'^rowCount=\d+$', line):
+            dataset = data[idx + 1: len(data)]
+            idx +=1
+        idx +=1
+    # initialize column index, create dataframe
+    # df = {}
+    df = []
+    for d in dataset:
+        d_load = json.loads(d)
+        cells = d_load['cells']
+        refinecells = refine_cells(cells)
+        df.append(refinecells)
+        # df.update({columnmodel[col]: refinecells})
+
+    dataframe = pd.DataFrame(df)
+    # column model :
+    # {0: 'Login email', 1: 'Identifier', 4: 'group', 2: 'First name', 3: 'Last name'}
+    # remove "removing" column
+    dataframe = dataframe.dropna(axis=1, how='all')
+    dataframe.columns = [cell[1] for cell in sorted(columnmodel.items())]
+    return dataframe
 
 
 def main():
@@ -117,11 +180,17 @@ def main():
     # print(infiles)
     # log_folder = 'log'
     log_folder = args.log
-    if not os.path.exists(log_folder):
-        os.makedirs(log_folder)
+    create_folder(log_folder)
 
     # data pattern
     data_path = f'{rootPath}/data/data.txt'
+    dataframe = extract_data(data_path)
+    savedata = args.data
+    create_folder(savedata)
+    cur_dataname = rootPath.split('.')[0]
+    dataframe.to_csv(f'{savedata}/{cur_dataname}_clean.csv', index=False)
+
+    # pairing history and data
     pair_recipe_history(rootPath,data_path, log_folder)
 
     # extract_history(history_path)

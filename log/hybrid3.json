@@ -15,7 +15,6 @@
         "repeat": false,
         "repeatCount": 10
     },
-    "cellindex": 2,
     "op": "MassCellChange",
     "commonColumnName": "First name",
     "updateRowContextDependencies": "true",
@@ -26,6 +25,7 @@
         "old": "{\"v\":\" Laura\"}",
         "new": "{\"v\":\" LAURA\"}"
     },
+    "cellindex": 2,
     "(1, 2)": {
         "row": "1",
         "cell": "2",

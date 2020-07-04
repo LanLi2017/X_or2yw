@@ -17,10 +17,10 @@ def get_args():
         default='log',
         help='path of the log folder'
     )
-    # parser.add_argument(
-    #     "--out",
-    #     type=str,
-    #     default='hybrid1.json',
-    #     help='output hybrid provenance file name'
-    # )
+    parser.add_argument(
+        "--data",
+        type=str,
+        default='data',
+        help='folder for saving current dataset'
+    )
     return parser.parse_args()

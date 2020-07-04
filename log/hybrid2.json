@@ -15,7 +15,6 @@
         "repeat": false,
         "repeatCount": 10
     },
-    "cellindex": 1,
     "op": "MassCellChange",
     "commonColumnName": "Identifier",
     "updateRowContextDependencies": "true",
@@ -26,6 +25,7 @@
         "old": "{\"v\":\" 2070\"}",
         "new": "{\"v\":2070}"
     },
+    "cellindex": 1,
     "(1, 1)": {
         "row": "1",
         "cell": "1",

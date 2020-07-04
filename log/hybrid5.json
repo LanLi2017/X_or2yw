@@ -15,12 +15,12 @@
         "expression": "grel:if(value>5000,'admin','user')",
         "onError": "set-to-blank"
     },
-    "cellindex": 4,
     "op": "ColumnAdditionChange",
     "columnName": "group",
     "columnIndex": "2",
     "newCellIndex": "4",
     "newCellCount": "4",
+    "cellindex": 4,
     "(0, 4)": {
         "old": null,
         "new": "{\"v\":\"user\"}"

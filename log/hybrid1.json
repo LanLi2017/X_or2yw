@@ -15,7 +15,6 @@
         "repeat": false,
         "repeatCount": 10
     },
-    "cellindex": 0,
     "op": "MassCellChange",
     "commonColumnName": "Login email",
     "updateRowContextDependencies": "true",
@@ -26,6 +25,7 @@
         "old": "{\"v\":\"laura@example.com\"}",
         "new": "{\"v\":\"laura\"}"
     },
+    "cellindex": 0,
     "(1, 0)": {
         "row": "1",
         "cell": "0",
