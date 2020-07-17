@@ -65,7 +65,7 @@ def pair_recipe_history(rootPath, path, log):
                     # oldCol = json.loads(file['oldColumn'])
                     # cellIndex = int(oldCol['cellIndex'])
                     # file.update({'cellindex': cellIndex})
-                    # index should be captured in change.txt
+                    # index should be captured in transpose_chan.txt
                 #     pass
                 # else:
                 #     for d in colindx:
@@ -74,7 +74,7 @@ def pair_recipe_history(rootPath, path, log):
                 #             file.update({'cellindex': colmodel['cellIndex']})
                 # pairing
                 historyid = file['id']
-                historypath = f'{rootPath}/history/{historyid}.change/change.txt'
+                historypath = f'{rootPath}/history/{historyid}.change/transpose_chan.txt'
                 with open(historypath, 'r')as fout:
                     data = fout.readlines()
                 data = [x.strip() for x in data]
@@ -174,7 +174,7 @@ def main():
     unzip(rootPath, zip_data_pattern)
 
     # history pattern
-    # his_pattern = f'{rootPath}/*.change/change.txt'
+    # his_pattern = f'{rootPath}/*.change/transpose_chan.txt'
     # print(his_pattern)
     # infiles = glob.glob(his_pattern)
     # print(infiles)

@@ -1,1 +1,0 @@
-[('hybrid4', 'core/text-transform'), ('hybrid6', 'core/column-removal')]

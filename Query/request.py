@@ -22,20 +22,6 @@ def getvalue(data: str):
             return None
 
 
-def get_ori_value(curdata: pd.DataFrame, row: int, column: int, datas):
-    # query: # what's the original value of a single cell (row, column)?
-    changed_cell_list = list_changed_cells(datas)
-
-    return 0
-
-
-# trace from JSON file, and query
-def count_change_cells():
-    # query: how many cells have been changed in total
-
-    pass
-
-
 def list_changes_cell(row, column, datas):
     # query: what the changes applied on this cell?
     res = []
@@ -79,6 +65,30 @@ def list_operations(datas, column, row):
     return res
 
 
+def get_ori_value(curdata, row, column, datas):
+    # query: # what's the original value of a single cell (row, column)?
+    changed_cell_list = list_changed_cells(datas)
+    # if the (row, column) is not in all of cells which get changed, return the current value
+    # include not changed & applied op but not changed
+    if (row, column) in changed_cell_list:
+        # invoke changes-single-cel function: provenance of cell change
+        list_changes = list_changes_cell(row, column, datas)
+        # [('hybrid1', {None: (1, 30)}, {None: (1, 30)}), ('hybrid3', {'old': '', 'new': None}), ('hybrid4', {None: (1, 30)}, {'Lincoln Park Oasis  Unit 2 ONLY': (1, 30)})]
+        # back to the first tuple: ('hybrid1', {None: (1, 30)}, {None: (1, 30)})
+        first_step = list_changes[0]
+        ori_value = first_step[1].keys()
+        return ori_value
+    else:
+        return curdata.iat[row,column]
+
+
+# trace from JSON file, and query
+def count_change_cells():
+    # query: how many cells have been changed in total
+
+    pass
+
+
 def count_change_cell(row, column, datas):
     # query: how many changes applied on one single cell
     changes = list_changes_cell(row, column, datas)
@@ -96,6 +106,7 @@ def cell_dep():
 
 
 def list_changed_cells(datas):
+    # query: what are the cells get actual changes?
     res = []
     for d in datas:
         data = d[1]
@@ -141,6 +152,11 @@ def most_changes(data: dict):
     return count_changes, desc
 
 
+def cell_prov():
+    # what's the provenance of a single cell
+    pass
+
+
 def main():
     # args
     args = Options.get_args()
@@ -174,12 +190,13 @@ def main():
         with open(infile) as f:
             data = json.load(f)
         merge_data.append(data)
-    datas = zip(filenames, merge_data)
+    datas = list(zip(filenames, merge_data))
 
     # return choice: 1. operations 2. cell changes
     if return_command == 'changes-single-cell':
         res = list_changes_cell(row, column, datas)
     elif return_command == 'operations-single-cell':
+        # need to change
         res = list_operations(datas,column, row)
     elif return_command == 'most-value-changes':
         # for column addition: newCellCount
@@ -201,9 +218,10 @@ def main():
     elif return_command == 'count-changes-single-cell':
         res = count_change_cell(row, column, datas)
     elif return_command == 'count-operation-single-cell':
+        #
         res = count_op_cell(row, column, datas)
     elif return_command == 'reverse-data':
-        res = get_ori_value(cur_data,row, column)
+        res = get_ori_value(cur_data,row, column, datas)
     elif return_command == 'list-changed-cells':
         res = list_changed_cells(datas)
 

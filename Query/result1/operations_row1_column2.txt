@@ -1,1 +1,0 @@
-[('hybrid3', 'core/text-transform')]

@@ -20,13 +20,13 @@ def get_args():
     parser.add_argument(
         "--log",
         type=str,
-        default='log',
+        default='log1',
         help='input the log folder: '
     )
     parser.add_argument(
         "--command",
         type = str,
-        default= 'changes',
+        default= 'changes-single-cell',
         help = 'return the cell changes: '
     )
     parser.add_argument(
