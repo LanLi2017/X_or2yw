@@ -4,7 +4,7 @@ from pprint import pprint
 
 class OPDependency:
     # return dependency: Geometric Transformations: change the structure of datasets, not only their content.
-    # operation which could change the identifier (row/column)
+    # operation which could change the identifier (row/column) & geometry
     # Cell --> column name --> prepend (n-1) provenance on this column
     def __init__(self,data):
         # dependency: previous dep + follow dep
@@ -18,6 +18,7 @@ class OPDependency:
         # future column dependency; e.g. split column will generate new columns
         # suffix column dependency:
         self.suf_dep = []
+        self.dep = ''
         self.data = data
         self.operation = self.data['operation']
         if self.operation['op']:
@@ -73,7 +74,7 @@ class OPDependency:
         # cells.MyCol1.value + cells.MyCol2.value
         # row.record.cells.AuthorFirstName.value + " " + row.record.cells.AuthorLastName.value
         newcolumn = self.operation['newColumnName']
-        self.suf_dep.append(newcolumn)
+        self.suf_dep = newcolumn
 
         baseColumnName = self.operation['baseColumnName']
         expression = self.operation['expression']
@@ -81,14 +82,21 @@ class OPDependency:
         # UA: how to parse GREL?
         if re.findall(r"cells\.(.+?)\.", exp):
             pattern = re.findall(r"cells\.(.+?)\.", exp)
-            self.prev_dep.extend(pattern)
+            self.prev_dep = pattern
             # re.findall(r"cells\['(.+?)'\]", exp)
         elif re.findall(r"cells\['(.+?)'\]", exp):
             pattern = re.findall(r"cells\['(.+?)'\]", exp)
-            self.prev_dep.extend(pattern)
+            self.prev_dep = pattern
         else:
+            # infinite possible
+            self.prev_dep = [baseColumnName]
             pass
 
+        deps = []
+        for col in self.prev_dep:
+            dep = {newcolumn: col}
+            deps.append(dep)
+        self.dep = deps
         # try:
         #     # re.match(r'^\((\d+), (\d+)\)$', key)
         #     input_nodes = re.findall(r"^cells\.(.*)\.value$",expression)
@@ -113,9 +121,15 @@ class OPDependency:
         There is no record for new generated columns in OpenRefine
         '''
         columnName = self.operation['columnName']
-        self.prev_dep.append(columnName)
-        # NewColumnNames
-        self.suf_dep.extend(self.data['NewColumnNames'])
+        self.prev_dep = columnName
+        # NewColumnNames:
+        self.suf_dep = self.data['NewColumnNames']
+        # 1 -> multi
+        deps = []
+        for newcol in self.suf_dep:
+            dep = {newcol: columnName}
+            deps.append(dep)
+        self.dep = deps
         # split_d = (input_node, split_cols)
 
     def remove_column_d(self):
@@ -125,7 +139,8 @@ class OPDependency:
           'op': 'core/column-removal'}]
         '''
         dep_col = self.operation['columnName']
-        self.prev_dep.append(dep_col)
+        self.prev_dep = dep_col
+        self.dep = dep_col
 
     def rename_column_d(self):
         '''
@@ -133,11 +148,13 @@ class OPDependency:
           'newColumnName': 'Video_Time',
           'oldColumnName': 'Showing_time',
           'op': 'core/column-rename'},
+          not rigid
         '''
         old_col = self.operation['oldColumnName']
         new_col = self.operation['newColumnName']
-        self.prev_dep.append(old_col)
-        self.suf_dep.append(new_col)
+        self.prev_dep = old_col
+        self.suf_dep = new_col
+        # self.dep = [{new_col: old_col}]
         # return (input, output)
 
     def text_transform_d(self):
@@ -149,7 +166,8 @@ class OPDependency:
             "expression": "value.replace(\"#\",\" \")",
         '''
         col = self.operation['columnName']
-        self.prev_dep.append(col)
+        self.prev_dep = col
+        self.dep = col
 
     def row_reorder(self):
         # reorder row, without changing the identifier
@@ -177,7 +195,7 @@ class OPDependency:
         pass
 
     def transpose(self):
-        # under construction
+        # under construction: dep?:??
         '''
         [
           {
@@ -197,11 +215,13 @@ class OPDependency:
         '''
         keycolumn = self.operation['keyColumnName']
         valuecolumn = self.operation['valueColumnName']
+        dep = []
         if self.operation['combinedColumnName']:
-            self.suf_dep.append(self.operation['combinedColumnName'])
+            self.dep = self.operation['combinedColumnName']
         else:
-            self.suf_dep.append(keycolumn)
-            self.suf_dep.append(valuecolumn)
+            dep.append(keycolumn)
+            dep.append(valuecolumn)
+            self.dep = dep
 
     def remove_row(self):
         '''

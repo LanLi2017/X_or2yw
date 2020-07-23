@@ -10,6 +10,8 @@ import re
 import Options
 import pandas as pd
 
+# from dependency import OPDependency
+
 
 def getvalue(data: str):
     if isinstance(data, dict):
@@ -60,7 +62,8 @@ def list_operations(datas, column, row):
                 res.append((filename, data['operation']['op']))
         else:
             if column == data['cellindex']:
-                res.append((filename, data['operation']['op']))
+                # res.append((filename, data['operation']['op']))
+                res.append((filename, data['operation']['expression']))
 
     return res
 
@@ -82,11 +85,14 @@ def get_ori_value(curdata, row, column, datas):
         return curdata.iat[row,column]
 
 
-# trace from JSON file, and query
-def count_change_cells():
-    # query: how many cells have been changed in total
-
-    pass
+def count_change_cells(op):
+    # return the total number of changes for each operation
+    count = 0
+    for key, value in op.items():
+        z = re.match(r'^\((\d+), (\d+)\)$', key)
+        if z:
+            count +=1
+    return count
 
 
 def count_change_cell(row, column, datas):
@@ -101,8 +107,94 @@ def count_op_cell(row, column, datas):
     return len(res)
 
 
-def cell_dep():
-    pass
+def extract_res(filename, value, row, column):
+    res = []
+    old_value = getvalue(value['old'])
+    olddict = {old_value: (row, column)}
+    new_value = getvalue(value['new'])
+    newdict = {new_value: (row, column)}
+    res.append((filename, olddict, newdict))
+    return res
+
+
+def cell_prov(datas, row, column, res):
+    # what's the provenance for a single cell
+    # rigid transformation || geometry transformation
+    # add new column: self.prev_dep
+    # dep: 'column name' || [{new: old}]
+    # (row, dep_col)
+    print(res)
+    for d in datas:
+        index = datas.index(d)
+        data = d[1]
+        filename = d[0]
+        op = data['op']
+        for key, value in data.items():
+            if key == str((row, column)):
+                prev_datas = datas[:index]
+                # opd = OPDependency(data)
+                # dep = opd.dep
+                if op == 'ColumnAdditionChange':
+                    # dep = {newcolumn: col}
+                    pass
+                elif op == 'ColumnSplitChange':
+                    columnindex = int(data['columnIndex'])
+                    # print((row, columnindex))
+                    res = extract_res(filename,value,row,column)
+                    cell_prov(prev_datas, row, columnindex,res)
+                    # res.append(cell_prov(prev_datas,row, columnindex))
+
+                    # rigid transformation: prov = history, list_changes_cell()
+                else:
+                    res.extend(extract_res(filename,value,row, column))
+    return res
+
+
+# def cell_prov(datas,row, column):
+#     # what's the provenance for a single cell
+#     # rigid transformation || geometry transformation
+#     # add new column: self.prev_dep
+#     # dep: 'column name' || [{new: old}]
+#     # (row, dep_col)
+#     res = []
+#     for d in datas:
+#         index = datas.index(d)
+#         data = d[1]
+#         filename = d[0]
+#         op = data['op']
+#         for key, value in data.items():
+#             if key == str((row, column)):
+#                 prev_datas = datas[:index]
+#                 opd = OPDependency(data)
+#                 dep = opd.dep
+#                 dep_columns = []
+#                 if isinstance(data, list):
+#                     # geometry transformation, recursion
+#                     #
+#                     # for col in dep:
+#                     #     for key,value in col.items():
+#                     #         dep_columns.append(value)
+#                     # for prev_d in prev_datas:
+#                     #     prev_data = prev_d[1]
+#                     #     prev_op = prev_data['op']
+#                     #     if prev_op == 'ColumnAdditionChange':
+#                     #         pass
+#                     #     else:
+#                     #         pass
+#
+#                     cell_prov(prev_datas,row, column)
+#
+#                 else:
+#                     # rigid transformation: prov = history, list_changes_cell()
+#                     if op == 'ColumnRemovalChange':
+#                         res.append((filename, value))
+#                     else:
+#                         old_value = getvalue(value['old'])
+#                         olddict = {old_value: (row, column)}
+#                         new_value = getvalue(value['new'])
+#                         newdict = {new_value: (row, column)}
+#                         res.append((filename, olddict, newdict))
+#     return res
 
 
 def list_changed_cells(datas):
@@ -125,36 +217,36 @@ def most_changes(data: dict):
     # if data['operations']['op']:
     #     opname = data['operations']['op']
     desc = data['operation']['description']
-    count_changes = 0
+    # count_changes = 0
+    count_changes = count_change_cells(data)
     # column additon newCellCount ; rename:
-    if data['op'] == 'ColumnAdditionChange':
-        count_changes = data['newCellCount']
-    elif data['op'] == 'ColumnRemovalChange':
-        count_changes = data['oldCellCount']
-    elif data['op'] == 'MassCellChange':
-        count_changes = data['cellChangeCount']
-    elif data['op'] == 'ColumnSplitChange':
-        new_col = int(data['columnNameCount'])
-        new_row = int(data['rowIndexCount'])
-        if data['removeOriginalColumn'] == 'false':
-            count_changes = new_col * new_row
-        elif data['removeOriginalColumn'] == 'true':
-            cellChangeCount = int(data['cellChangeCount'])
-            count_changes = new_col * new_row + cellChangeCount
-    elif data['op'] == 'CellChange':
-        count_changes = 1
-    elif data['op'] == 'ColumnRenameChange':
-        # rename operation has no value change
-        count_changes = 0
-    else:
-        count_changes = 0
+    # if data['op'] == 'ColumnAdditionChange':
+    #     count_changes = data['newCellCount']
+    # elif data['op'] == 'ColumnRemovalChange':
+    #     count_changes = data['oldCellCount']
+    # elif data['op'] == 'MassCellChange':
+    #     count_changes = data['cellChangeCount']
+    # elif data['op'] == 'ColumnSplitChange':
+    #     new_col = int(data['columnNameCount'])
+    #     new_row = int(data['rowIndexCount'])
+    #     if data['removeOriginalColumn'] == 'false':
+    #         count_changes = new_col * new_row
+    #     elif data['removeOriginalColumn'] == 'true':
+    #         cellChangeCount = int(data['cellChangeCount'])
+    #         count_changes = new_col * new_row + cellChangeCount
+    # elif data['op'] == 'CellChange':
+    #     count_changes = 1
+    # elif data['op'] == 'ColumnRenameChange':
+    #     # rename operation has no value change
+    #     count_changes = 0
+    # elif data['op'] == 'MassRowColumnChange':
+    #     # transpose
+    #     count_changes = count_change_cells(data)
+    # else:
+    #     ''' transpose need to be constructed '''
+    #     count_changes = 0
     # res = {desc: count_changes}
     return count_changes, desc
-
-
-def cell_prov():
-    # what's the provenance of a single cell
-    pass
 
 
 def main():
@@ -196,7 +288,7 @@ def main():
     if return_command == 'changes-single-cell':
         res = list_changes_cell(row, column, datas)
     elif return_command == 'operations-single-cell':
-        # need to change
+        # need to change: operation name might not tell anything
         res = list_operations(datas,column, row)
     elif return_command == 'most-value-changes':
         # for column addition: newCellCount

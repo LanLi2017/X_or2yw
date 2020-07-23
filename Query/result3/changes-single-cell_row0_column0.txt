@@ -1,0 +1,1 @@
+[('hybrid1', {'laura@example.com': (0, 0)}, {'laura': (0, 0)}), ('hybrid3', {'laura': (0, 0)}, {'LAURA': (0, 0)}), ('hybrid4', {'LAURA': (0, 0)}, {'Laura': (0, 0)})]

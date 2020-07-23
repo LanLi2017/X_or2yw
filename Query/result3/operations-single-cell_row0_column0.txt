@@ -1,0 +1,1 @@
+[('hybrid1', "grel:value.split('@')[0]"), ('hybrid3', 'value.toUppercase()'), ('hybrid4', 'value.toTitlecase()')]

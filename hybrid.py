@@ -74,7 +74,7 @@ def pair_recipe_history(rootPath, path, log):
                 #             file.update({'cellindex': colmodel['cellIndex']})
                 # pairing
                 historyid = file['id']
-                historypath = f'{rootPath}/history/{historyid}.change/transpose_chan.txt'
+                historypath = f'{rootPath}/history/{historyid}.change/change.txt'
                 with open(historypath, 'r')as fout:
                     data = fout.readlines()
                 data = [x.strip() for x in data]
