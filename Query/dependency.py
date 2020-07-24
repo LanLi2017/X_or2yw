@@ -35,15 +35,15 @@ class OPDependency:
         '''
         # op_name = self.mapping_ops_name[self.history_id]
 
-        if self.opname == 'column-addition':
+        if self.opname == 'core/column-addition':
             return self.add_column_d()
-        elif self.opname == 'column-split':
+        elif self.opname == 'core/column-split':
             return self.split_column_d()
-        elif self.opname== 'column-rename':
+        elif self.opname== 'core/column-rename':
             return self.rename_column_d()
-        elif self.opname == 'column-removal':
+        elif self.opname == 'core/column-removal':
             return self.remove_column_d()
-        elif self.opname == 'text-transform':
+        elif self.opname == 'core/text-transform':
             return self.text_transform_d()
         elif self.opname == 'core/row-reorder':
             return self.row_reorder()
@@ -104,6 +104,7 @@ class OPDependency:
         #     print('here')
         # finally:
         #     print('ok')
+        return self.dep
 
     def split_column_d(self):
         '''
@@ -131,6 +132,7 @@ class OPDependency:
             deps.append(dep)
         self.dep = deps
         # split_d = (input_node, split_cols)
+        return self.dep
 
     def remove_column_d(self):
         '''
@@ -141,6 +143,7 @@ class OPDependency:
         dep_col = self.operation['columnName']
         self.prev_dep = dep_col
         self.dep = dep_col
+        return self.dep
 
     def rename_column_d(self):
         '''
@@ -156,6 +159,7 @@ class OPDependency:
         self.suf_dep = new_col
         # self.dep = [{new_col: old_col}]
         # return (input, output)
+        return self.dep
 
     def text_transform_d(self):
         # rigid transformation
@@ -168,6 +172,7 @@ class OPDependency:
         col = self.operation['columnName']
         self.prev_dep = col
         self.dep = col
+        return self.dep
 
     def row_reorder(self):
         # reorder row, without changing the identifier
@@ -222,6 +227,7 @@ class OPDependency:
             dep.append(keycolumn)
             dep.append(valuecolumn)
             self.dep = dep
+        return self.dep
 
     def remove_row(self):
         '''

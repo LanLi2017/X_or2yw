@@ -1,0 +1,40 @@
+3.4-beta2
+com.google.refine.model.changes.ColumnSplitChange
+columnName=Login email
+columnNameCount=2
+Login email 1
+Login email 2
+rowIndexCount=4
+0
+1
+2
+3
+tupleCount=4
+2
+"laura"
+"example.com"
+2
+"craig"
+"example.com"
+2
+"mary"
+"example.com"
+2
+"jamie"
+"example.com"
+removeOriginalColumn=true
+column={"cellIndex":0,"originalName":"Login email","constraints":"{}","type":"string","format":"","title":"","description":"","name":"Login email"}
+columnIndex=0
+firstNewCellIndex=5
+newRowCount=4
+{"starred":false,"flagged":false,"cells":[null,{"v":2069},{"v":" Laura"},{"v":" Grey"},{"v":"user"},{"v":"laura"},{"v":"example.com"}]}
+{"starred":false,"flagged":false,"cells":[null,{"v":4080},{"v":" Craig"},{"v":" Johnson"},{"v":"user"},{"v":"craig"},{"v":"example.com"}]}
+{"starred":false,"flagged":false,"cells":[null,{"v":9345},{"v":" Mary"},{"v":" Jenkins"},{"v":"admin"},{"v":"mary"},{"v":"example.com"}]}
+{"starred":false,"flagged":false,"cells":[null,{"v":5078},{"v":" Jamie"},{"v":" Smith"},{"v":"admin"},{"v":"jamie"},{"v":"example.com"}]}
+oldRowCount=4
+{"starred":false,"flagged":false,"cells":[{"v":"laura@example.com"},{"v":2069},{"v":" Laura"},{"v":" Grey"},{"v":"user"},null]}
+{"starred":false,"flagged":false,"cells":[{"v":"craig@example.com"},{"v":4080},{"v":" Craig"},{"v":" Johnson"},{"v":"user"},null]}
+{"starred":false,"flagged":false,"cells":[{"v":"mary@example.com"},{"v":9345},{"v":" Mary"},{"v":" Jenkins"},{"v":"admin"},null]}
+{"starred":false,"flagged":false,"cells":[{"v":"jamie@example.com"},{"v":5078},{"v":" Jamie"},{"v":" Smith"},{"v":"admin"},null]}
+oldColumnGroupCount=0
+/ec/

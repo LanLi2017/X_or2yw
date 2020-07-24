@@ -1,0 +1,24 @@
+3.4-beta2
+columnModel=
+maxCellIndex=5
+keyColumnIndex=0
+columnCount=5
+{"cellIndex":4,"originalName":"Login email 1","constraints":"{}","type":"","format":"default","title":"","description":"","name":"Login email 1"}
+{"cellIndex":5,"originalName":"Login email 2","constraints":"{}","type":"","format":"default","title":"","description":"","name":"Login email 2"}
+{"cellIndex":1,"originalName":"Identifier","constraints":"{}","type":"string","format":"","title":"","description":"","name":"Identifier"}
+{"cellIndex":2,"originalName":"First name","constraints":"{}","type":"string","format":"","title":"","description":"","name":"First name"}
+{"cellIndex":3,"originalName":"Last name","constraints":"{}","type":"string","format":"","title":"","description":"","name":"Last name"}
+columnGroupCount=0
+/e/
+history=
+pastEntryCount=3
+{"id":1595541013544,"description":"Text transform on 4 cells in column Login email: value.toTitlecase()","operation":{"op":"core/text-transform","engineConfig":{"facets":[],"mode":"row-based"},"columnName":"Login email","expression":"value.toTitlecase()","onError":"keep-original","repeat":false,"repeatCount":10,"description":"Text transform on cells in column Login email using expression value.toTitlecase()"},"time":"2020-07-23T21:46:14Z"}
+{"id":1595541708959,"description":"Split 4 cell(s) in column Login email into several columns by separator","operation":{"op":"core/column-split","engineConfig":{"facets":[],"mode":"row-based"},"columnName":"Login email","guessCellType":true,"removeOriginalColumn":true,"mode":"separator","separator":"@","regex":false,"maxColumns":0,"description":"Split column Login email by separator"},"time":"2020-07-23T21:46:21Z"}
+{"id":1595541470911,"description":"Text transform on 4 cells in column Login email 1: value.toUppercase()","operation":{"op":"core/text-transform","engineConfig":{"facets":[],"mode":"row-based"},"columnName":"Login email 1","expression":"value.toUppercase()","onError":"keep-original","repeat":false,"repeatCount":10,"description":"Text transform on cells in column Login email 1 using expression value.toUppercase()"},"time":"2020-07-23T21:46:35Z"}
+futureEntryCount=0
+/e/
+rowCount=4
+{"starred":false,"flagged":false,"cells":[null,{"v":" 2070"},{"v":" Laura"},{"v":" Grey"},{"v":"LAURA"},{"v":"example.Com"}]}
+{"starred":false,"flagged":false,"cells":[null,{"v":" 4081"},{"v":" Craig"},{"v":" Johnson"},{"v":"CRAIG"},{"v":"example.Com"}]}
+{"starred":false,"flagged":false,"cells":[null,{"v":" 9346"},{"v":" Mary"},{"v":" Jenkins"},{"v":"MARY"},{"v":"example.Com"}]}
+{"starred":false,"flagged":false,"cells":[null,{"v":" 5079"},{"v":" Jamie"},{"v":" Smith"},{"v":"JAMIE"},{"v":"example.Com"}]}

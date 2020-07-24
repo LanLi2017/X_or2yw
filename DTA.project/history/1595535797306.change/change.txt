@@ -1,0 +1,26 @@
+3.4-beta2
+com.google.refine.model.changes.MassCellChange
+commonColumnName=Login email 2
+updateRowContextDependencies=true
+cellChangeCount=4
+row=0
+cell=6
+old={"v":"example.com"}
+new={"v":"Example.Com"}
+/ec/
+row=1
+cell=6
+old={"v":"example.com"}
+new={"v":"Example.Com"}
+/ec/
+row=2
+cell=6
+old={"v":"example.com"}
+new={"v":"Example.Com"}
+/ec/
+row=3
+cell=6
+old={"v":"example.com"}
+new={"v":"Example.Com"}
+/ec/
+/ec/

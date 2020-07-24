@@ -1,0 +1,27 @@
+3.4-beta2
+columnModel=
+maxCellIndex=6
+keyColumnIndex=0
+columnCount=6
+{"cellIndex":5,"originalName":"Login email 1","constraints":"{}","type":"","format":"default","title":"","description":"","name":"Login email 1"}
+{"cellIndex":6,"originalName":"Login email 2","constraints":"{}","type":"","format":"default","title":"","description":"","name":"Login email 2"}
+{"cellIndex":1,"originalName":"Identifier","constraints":"{}","type":"string","format":"","title":"","description":"","name":"Identifier"}
+{"cellIndex":4,"originalName":"Group","constraints":"{}","type":"","format":"default","title":"","description":"","name":"Group"}
+{"cellIndex":2,"originalName":"First name","constraints":"{}","type":"string","format":"","title":"","description":"","name":"First name"}
+{"cellIndex":3,"originalName":"Last name","constraints":"{}","type":"string","format":"","title":"","description":"","name":"Last name"}
+columnGroupCount=0
+/e/
+history=
+pastEntryCount=5
+{"id":1595535630369,"description":"Text transform on 4 cells in column Identifier: value.toNumber()","operation":{"op":"core/text-transform","engineConfig":{"facets":[],"mode":"row-based"},"columnName":"Identifier","expression":"value.toNumber()","onError":"keep-original","repeat":false,"repeatCount":10,"description":"Text transform on cells in column Identifier using expression value.toNumber()"},"time":"2020-07-23T20:09:15Z"}
+{"id":1595535875103,"description":"Text transform on 4 cells in column Identifier: grel:value-1","operation":{"op":"core/text-transform","engineConfig":{"facets":[],"mode":"row-based"},"columnName":"Identifier","expression":"grel:value-1","onError":"keep-original","repeat":false,"repeatCount":10,"description":"Text transform on cells in column Identifier using expression grel:value-1"},"time":"2020-07-23T20:09:22Z"}
+{"id":1595535521289,"description":"Create new column Group based on column Identifier by filling 4 rows with grel:if(value>5000,'admin','user')","operation":{"op":"core/column-addition","engineConfig":{"facets":[],"mode":"row-based"},"baseColumnName":"Identifier","expression":"grel:if(value>5000,'admin','user')","onError":"set-to-blank","newColumnName":"Group","columnInsertIndex":2,"description":"Create column Group at index 2 based on column Identifier using expression grel:if(value>5000,'admin','user')"},"time":"2020-07-23T20:10:07Z"}
+{"id":1595535791193,"description":"Split 4 cell(s) in column Login email into several columns by separator","operation":{"op":"core/column-split","engineConfig":{"facets":[],"mode":"row-based"},"columnName":"Login email","guessCellType":true,"removeOriginalColumn":true,"mode":"separator","separator":"@","regex":false,"maxColumns":0,"description":"Split column Login email by separator"},"time":"2020-07-23T20:10:15Z"}
+{"id":1595535797306,"description":"Text transform on 4 cells in column Login email 2: value.toTitlecase()","operation":{"op":"core/text-transform","engineConfig":{"facets":[],"mode":"row-based"},"columnName":"Login email 2","expression":"value.toTitlecase()","onError":"keep-original","repeat":false,"repeatCount":10,"description":"Text transform on cells in column Login email 2 using expression value.toTitlecase()"},"time":"2020-07-23T20:10:32Z"}
+futureEntryCount=0
+/e/
+rowCount=4
+{"starred":false,"flagged":false,"cells":[null,{"v":2069},{"v":" Laura"},{"v":" Grey"},{"v":"user"},{"v":"laura"},{"v":"Example.Com"}]}
+{"starred":false,"flagged":false,"cells":[null,{"v":4080},{"v":" Craig"},{"v":" Johnson"},{"v":"user"},{"v":"craig"},{"v":"Example.Com"}]}
+{"starred":false,"flagged":false,"cells":[null,{"v":9345},{"v":" Mary"},{"v":" Jenkins"},{"v":"admin"},{"v":"mary"},{"v":"Example.Com"}]}
+{"starred":false,"flagged":false,"cells":[null,{"v":5078},{"v":" Jamie"},{"v":" Smith"},{"v":"admin"},{"v":"jamie"},{"v":"Example.Com"}]}

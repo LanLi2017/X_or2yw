@@ -25,7 +25,9 @@
 #
 #python request.py --log log1 --command most-value-changes --out result1
 #python request.py --log log2 --command most-value-changes --out result1
-python request.py --log log3 --row 0 --column 0 --command changes-single-cell --out result3
-python request.py --log log3 --row 0 --column 0 --command operations-single-cell --out result3
-python request.py --log log3 --row 0 --column 0 --command  count-changes-single-cell --out result3
-python request.py --log log3 --row 0 --column 0 --command  count-operation-single-cell --out result3
+#python request.py --log log3 --row 0 --column 0 --command changes-single-cell --out result3
+#python request.py --log log3 --row 0 --column 0 --command operations-single-cell --out result3
+#python request.py --log log3 --row 0 --column 0 --command  count-changes-single-cell --out result3
+#python request.py --log log3 --row 0 --column 0 --command  count-operation-single-cell --out result3
+python request.py --log log4 --row 2 --column 4 --out result4
+python request.py --log log4 --row 2 --column 4 --command changes-single-cell --out result4

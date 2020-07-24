@@ -26,8 +26,8 @@ def get_args():
     parser.add_argument(
         "--command",
         type = str,
-        default= 'changes-single-cell',
-        help = 'return the cell changes: '
+        default= 'merge',
+        help = 'return all queries '
     )
     parser.add_argument(
         "--out",

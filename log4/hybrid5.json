@@ -1,0 +1,47 @@
+{
+    "id": 1595535797306,
+    "description": "Text transform on 4 cells in column Login email 2: value.toTitlecase()",
+    "operation": {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Login email 2",
+        "expression": "value.toTitlecase()",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column Login email 2 using expression value.toTitlecase()"
+    },
+    "time": "2020-07-23T20:10:32Z",
+    "op": "MassCellChange",
+    "commonColumnName": "Login email 2",
+    "updateRowContextDependencies": "true",
+    "cellChangeCount": "4",
+    "(0, 6)": {
+        "row": "0",
+        "cell": "6",
+        "old": "{\"v\":\"example.com\"}",
+        "new": "{\"v\":\"Example.Com\"}"
+    },
+    "cellindex": 6,
+    "(1, 6)": {
+        "row": "1",
+        "cell": "6",
+        "old": "{\"v\":\"example.com\"}",
+        "new": "{\"v\":\"Example.Com\"}"
+    },
+    "(2, 6)": {
+        "row": "2",
+        "cell": "6",
+        "old": "{\"v\":\"example.com\"}",
+        "new": "{\"v\":\"Example.Com\"}"
+    },
+    "(3, 6)": {
+        "row": "3",
+        "cell": "6",
+        "old": "{\"v\":\"example.com\"}",
+        "new": "{\"v\":\"Example.Com\"}"
+    }
+}

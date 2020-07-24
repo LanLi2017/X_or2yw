@@ -1,0 +1,141 @@
+{
+    "id": 1595541708959,
+    "description": "Split 4 cell(s) in column Login email into several columns by separator",
+    "operation": {
+        "op": "core/column-split",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "Login email",
+        "guessCellType": true,
+        "removeOriginalColumn": true,
+        "mode": "separator",
+        "separator": "@",
+        "regex": false,
+        "maxColumns": 0,
+        "description": "Split column Login email by separator"
+    },
+    "time": "2020-07-23T21:46:21Z",
+    "op": "ColumnSplitChange",
+    "columnNameCount": 2,
+    "NewColumnNames": [
+        "Login email 1",
+        "Login email 2"
+    ],
+    "rowIndexCount": 4,
+    "removeOriginalColumn": "true",
+    "column": "{\"cellIndex\":0,\"originalName\":\"Login email\",\"constraints\":\"{}\",\"type\":\"string\",\"format\":\"\",\"title\":\"\",\"description\":\"\",\"name\":\"Login email\"}",
+    "columnIndex": "0",
+    "firstNewCellIndex": "4",
+    "oldColumnGroupCount": "0",
+    "(0, 0)": {
+        "row": 0,
+        "cell": 0,
+        "old": {
+            "v": "Laura@example.Com"
+        },
+        "new": {
+            "v": null
+        }
+    },
+    "(0, 4)": {
+        "row": 0,
+        "cell": 4,
+        "old": null,
+        "new": {
+            "v": "Laura"
+        }
+    },
+    "(0, 5)": {
+        "row": 0,
+        "cell": 5,
+        "old": null,
+        "new": {
+            "v": "example.Com"
+        }
+    },
+    "(1, 0)": {
+        "row": 1,
+        "cell": 0,
+        "old": {
+            "v": "Craig@example.Com"
+        },
+        "new": {
+            "v": null
+        }
+    },
+    "(1, 4)": {
+        "row": 1,
+        "cell": 4,
+        "old": null,
+        "new": {
+            "v": "Craig"
+        }
+    },
+    "(1, 5)": {
+        "row": 1,
+        "cell": 5,
+        "old": null,
+        "new": {
+            "v": "example.Com"
+        }
+    },
+    "(2, 0)": {
+        "row": 2,
+        "cell": 0,
+        "old": {
+            "v": "Mary@example.Com"
+        },
+        "new": {
+            "v": null
+        }
+    },
+    "(2, 4)": {
+        "row": 2,
+        "cell": 4,
+        "old": null,
+        "new": {
+            "v": "Mary"
+        }
+    },
+    "(2, 5)": {
+        "row": 2,
+        "cell": 5,
+        "old": null,
+        "new": {
+            "v": "example.Com"
+        }
+    },
+    "(3, 0)": {
+        "row": 3,
+        "cell": 0,
+        "old": {
+            "v": "Jamie@example.Com"
+        },
+        "new": {
+            "v": null
+        }
+    },
+    "(3, 4)": {
+        "row": 3,
+        "cell": 4,
+        "old": null,
+        "new": {
+            "v": "Jamie"
+        }
+    },
+    "(3, 5)": {
+        "row": 3,
+        "cell": 5,
+        "old": null,
+        "new": {
+            "v": "example.Com"
+        }
+    },
+    "cellidx_list": [
+        4,
+        5,
+        0
+    ]
+}

@@ -3,7 +3,6 @@
 # given row index, column index, return cell workflow
 import glob
 import json
-import operator
 import os
 import re
 
@@ -11,6 +10,7 @@ import Options
 import pandas as pd
 
 # from dependency import OPDependency
+from dependency import OPDependency
 
 
 def getvalue(data: str):
@@ -117,13 +117,29 @@ def extract_res(filename, value, row, column):
     return res
 
 
+def return_colindex(datas, columns):
+    data = datas[1]
+    operation = data['operation']
+    if operation['op'] == 'core/column-addition':
+        column = operation['baseColumnName']
+    else:
+        column = operation['columnName']
+
+    colidx = []
+    if column in columns:
+        for key,value in data.items():
+            z = re.match(r'^\((\d+), (\d+)\)$', key)
+            if z:
+                colidx.append(int(z.group(2)))
+    return list(set(colidx))
+
+
 def cell_prov(datas, row, column, res):
     # what's the provenance for a single cell
     # rigid transformation || geometry transformation
     # add new column: self.prev_dep
     # dep: 'column name' || [{new: old}]
     # (row, dep_col)
-    print(res)
     for d in datas:
         index = datas.index(d)
         data = d[1]
@@ -136,7 +152,18 @@ def cell_prov(datas, row, column, res):
                 # dep = opd.dep
                 if op == 'ColumnAdditionChange':
                     # dep = {newcolumn: col}
-                    pass
+                    dep_dicts = OPDependency(data).mapping()
+                    #  [{newcolumn: col}]
+                    dependent_cols = []
+                    for coldict in dep_dicts:
+                        for gov,depend in coldict.items():
+                            dependent_cols.append(depend)
+                    colidx = []
+                    for prev in prev_datas:
+                        colidx = return_colindex(prev, dependent_cols)
+                    res = extract_res(filename, value, row, column)
+                    for idx in colidx:
+                        cell_prov(prev_datas, row, idx, res)
                 elif op == 'ColumnSplitChange':
                     columnindex = int(data['columnIndex'])
                     # print((row, columnindex))
@@ -147,54 +174,8 @@ def cell_prov(datas, row, column, res):
                     # rigid transformation: prov = history, list_changes_cell()
                 else:
                     res.extend(extract_res(filename,value,row, column))
+    res.sort(key=lambda x: x[0])
     return res
-
-
-# def cell_prov(datas,row, column):
-#     # what's the provenance for a single cell
-#     # rigid transformation || geometry transformation
-#     # add new column: self.prev_dep
-#     # dep: 'column name' || [{new: old}]
-#     # (row, dep_col)
-#     res = []
-#     for d in datas:
-#         index = datas.index(d)
-#         data = d[1]
-#         filename = d[0]
-#         op = data['op']
-#         for key, value in data.items():
-#             if key == str((row, column)):
-#                 prev_datas = datas[:index]
-#                 opd = OPDependency(data)
-#                 dep = opd.dep
-#                 dep_columns = []
-#                 if isinstance(data, list):
-#                     # geometry transformation, recursion
-#                     #
-#                     # for col in dep:
-#                     #     for key,value in col.items():
-#                     #         dep_columns.append(value)
-#                     # for prev_d in prev_datas:
-#                     #     prev_data = prev_d[1]
-#                     #     prev_op = prev_data['op']
-#                     #     if prev_op == 'ColumnAdditionChange':
-#                     #         pass
-#                     #     else:
-#                     #         pass
-#
-#                     cell_prov(prev_datas,row, column)
-#
-#                 else:
-#                     # rigid transformation: prov = history, list_changes_cell()
-#                     if op == 'ColumnRemovalChange':
-#                         res.append((filename, value))
-#                     else:
-#                         old_value = getvalue(value['old'])
-#                         olddict = {old_value: (row, column)}
-#                         new_value = getvalue(value['new'])
-#                         newdict = {new_value: (row, column)}
-#                         res.append((filename, olddict, newdict))
-#     return res
 
 
 def list_changed_cells(datas):
@@ -209,6 +190,12 @@ def list_changed_cells(datas):
     # return list of changed cell at (row, column)
     # remove duplicates
     return list(set(res))
+
+
+def count_changed_cells(datas):
+    # how many cells have been changed
+    res = list_changed_cells(datas)
+    return len(res)
 
 
 def most_changes(data: dict):
@@ -316,6 +303,22 @@ def main():
         res = get_ori_value(cur_data,row, column, datas)
     elif return_command == 'list-changed-cells':
         res = list_changed_cells(datas)
+    elif return_command == 'count-changed-cells':
+        res = count_changed_cells(datas)
+    elif return_command == 'prov-single-cell':
+        res = cell_prov(datas, row, column, res)
+    elif return_command == 'merge':
+        # output queries in batch
+        result = []
+        res = {}
+        res['List all of changes applied on this cell']= list_changes_cell(row, column, datas)
+        res['List all of operations applied on this cells'] = list_operations(datas,column,row)
+        res['Count how many changes applied on this cell'] = count_change_cell(row,column,datas)
+        res['Count how many operations applied on this cell'] = count_op_cell(row, column, datas)
+        res['Reverse the data cleaning task and return the original cell value'] = get_ori_value(cur_data, row,column,datas)
+        res['List all of the cells which get changed'] = list_changed_cells(datas)
+        res['Count how many cells have been changed'] = count_changed_cells(datas)
+        res['Provenance of this single cell'] = cell_prov(datas,row,column,result)
 
     # output = f'result/{args.out}'
     # log_folder = 'result/'
@@ -331,7 +334,13 @@ def main():
         output = f'{log_folder}/{return_command}_row{args.row}_column{args.column}.txt'
 
     with open(output, 'w')as file:
-        file.write(str(res))
+        if isinstance( res, list):
+            for r in res:
+                file.write(str(r)+'\n')
+        elif isinstance(res, dict):
+            for r in res.items():
+                file.write(str(r)+'\n')
+
     return res
 
 
