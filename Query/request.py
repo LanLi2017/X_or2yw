@@ -63,7 +63,7 @@ def list_operations(datas, column, row):
         else:
             if column == data['cellindex']:
                 # res.append((filename, data['operation']['op']))
-                res.append((filename, data['operation']['expression']))
+                res.append((filename, data['description']))
 
     return res
 
@@ -340,6 +340,7 @@ def main():
         elif isinstance(res, dict):
             for r in res.items():
                 file.write(str(r)+'\n')
+        # json.dump(res, file, indent=2, sort_keys=True)
 
     return res
 
