@@ -1,0 +1,47 @@
+{
+    "id": 1595445687466,
+    "description": "Text transform on 4 cells in column Login email: value.toUppercase()",
+    "operation": {
+        "op": "core/text-transform",
+        "engineConfig": {
+            "facets": [],
+            "mode": "record-based"
+        },
+        "columnName": "Login email",
+        "expression": "value.toUppercase()",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10,
+        "description": "Text transform on cells in column Login email using expression value.toUppercase()"
+    },
+    "time": "2020-07-22T19:06:51Z",
+    "op": "MassCellChange",
+    "commonColumnName": "Login email",
+    "updateRowContextDependencies": "true",
+    "cellChangeCount": "4",
+    "(0, 0)": {
+        "row": "0",
+        "cell": "0",
+        "old": "{\"v\":\"laura\"}",
+        "new": "{\"v\":\"LAURA\"}"
+    },
+    "cellindex": 0,
+    "(1, 0)": {
+        "row": "1",
+        "cell": "0",
+        "old": "{\"v\":\"craig\"}",
+        "new": "{\"v\":\"CRAIG\"}"
+    },
+    "(2, 0)": {
+        "row": "2",
+        "cell": "0",
+        "old": "{\"v\":\"mary\"}",
+        "new": "{\"v\":\"MARY\"}"
+    },
+    "(3, 0)": {
+        "row": "3",
+        "cell": "0",
+        "old": "{\"v\":\"jamie\"}",
+        "new": "{\"v\":\"JAMIE\"}"
+    }
+}
