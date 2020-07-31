@@ -6,7 +6,7 @@ Pairling combined provenance file from history folder and data.txt
 
 Query and Answer:
 
-sandbox for 10* queries; 
+Encapsulated 10* queries; 
 run bash and output the result
 
 
