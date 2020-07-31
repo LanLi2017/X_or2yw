@@ -84,7 +84,7 @@ def val_type(valslist):
     return valstr,valbool,valnum
 
 
-def create_table(objids, keyslist, valslist,valstr, valbool, valnum):
+def create_table(objids, keyslist,valstr, valbool, valnum):
     df = pd.DataFrame(columns=['objid', 'keystr', 'valstr', 'valbool', 'valnum'])
     df['objid'] = objids
     df['objid'].astype(int)
@@ -101,10 +101,14 @@ def main():
         data = json.load(f)
 
     pprint(data)
+    # object id list, keys list, value list
     objids, keyslist, valslist = return_obj(data)
 
+    # value type list
     valstr, valbool, valnum = val_type(valslist)
-    df = create_table(objids, keyslist, valslist,valstr, valbool, valnum)
+
+    # create schema
+    df = create_table(objids, keyslist,valstr, valbool, valnum)
     pprint(df)
     df.to_csv('test.csv', index=False)
 
