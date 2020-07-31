@@ -1,0 +1,15 @@
+objid,keystr,valstr,valbool,valnum
+0,name,Lan LI,,
+0,age,,,25.0
+0,indicated,,True,
+0,kids[0],Gob,,
+0,kids[1],Lindsay,,
+0,kids[2],Buster,,
+0,kids[3].name,Michael,,
+0,kids[3].age,,,38.0
+0,kids[3].kids[0],George-Michael,,
+0,rival,Stan Sitwell,,
+1,name,Stan Sitwell,,
+1,age,middle-aged,,
+1,charity_giving,,,250120.5
+1,kids[0],Sally,,

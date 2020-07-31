@@ -9,8 +9,8 @@ def recr_key_value(data, keys, vals, keystr, valstr):
     elif isinstance(data, dict):
         for key, value in data.items():
             if keystr:
-                keystr = f'{keystr}.{key}'
-                recr_key_value(value,keys, vals, keystr,value)
+                # keystr = f'{keystr}.{key}'
+                recr_key_value(value,keys, vals, f'{keystr}.{key}',value)
             else:
                 recr_key_value(value, keys, vals, key, value)
     else:
@@ -21,7 +21,7 @@ def recr_key_value(data, keys, vals, keystr, valstr):
 
 
 def main():
-    with open('med1.json', 'r')as f:
+    with open('med2.json', 'r')as f:
         data = json.load(f)
 
     pprint(data)

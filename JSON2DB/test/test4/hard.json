@@ -1,0 +1,21 @@
+[
+  {
+  "name": "Lan LI",
+  "age": 25,
+  "indicated": true,
+  "kids": ["Gob", "Lindsay", "Buster",
+    {
+      "name": "Michael",
+      "age": 38,
+      "kids": ["George-Michael"]
+    }
+  ],
+  "rival": "Stan Sitwell"
+},
+  {
+    "name": "Stan Sitwell",
+    "age": "middle-aged",
+    "charity_giving": 250120.5,
+    "kids": ["Sally"]
+  }
+  ]
