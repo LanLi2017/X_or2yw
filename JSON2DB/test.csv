@@ -6,7 +6,7 @@ objid,keystr,valstr,valbool,valnum
 0,kids[1],Lindsay,,
 0,kids[2],Buster,,
 0,kids[3].name,Michael,,
-0,kids[3].age,,,38.0
+0,kids[3].age,,,3.0
 0,kids[3].kids[0],George-Michael,,
 0,rival,Stan Sitwell,,
 1,name,Stan Sitwell,,
