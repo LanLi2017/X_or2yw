@@ -1,0 +1,12 @@
+{
+  "name": "Lan LI",
+  "age": 25,
+  "indicated": true,
+  "kids": ["Gob", "Lindsay", "Buster",
+    {
+      "name": "Michael",
+      "age": 38
+    }
+  ],
+  "rival": "Stan Sitwell"
+}
