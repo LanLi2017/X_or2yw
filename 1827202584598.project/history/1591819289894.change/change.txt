@@ -1,0 +1,7 @@
+3.1
+com.google.refine.model.changes.CellChange
+row=0
+cell=4
+old={"v":"laura"}
+new={"v":"laura something else"}
+/ec/

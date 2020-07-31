@@ -1,0 +1,7 @@
+3.1
+com.google.refine.model.changes.RowRemovalChange
+rowIndexCount=1
+0
+rowCount=1
+{"flagged":false,"starred":true,"cells":[{"v":"laura@example.com"},{"v":2070},{"v":" Laura"},{"v":" Grey"},{"v":20701},{"v":-18631}]}
+/ec/
