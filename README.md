@@ -1,8 +1,16 @@
 Query Hybrid Provenance in OpenRefine
 ======================
 
-[Towards More Transparent, Reproducible, andReusable Data Cleaning with OpenRefine](http://hdl.handle.net/2142/103330)
 Li, L., Ludäscher, B., & Zhang, Q. (2019). Towards more transparent, reproducible, and reusable data cleaning with OpenRefine. iConference 2019 Proceedings.
+
+[Towards More Transparent, Reproducible, andReusable Data Cleaning with OpenRefine](http://hdl.handle.net/2142/103330)
+
+
+[A first-principles algebraic approach to data transformations in data cleaning: understanding provenance from the ground up](	https://www.usenix.org/conference/tapp2020/presentation/nunez-corrales)
+
+
+Overview
+=========
 
 For current Provenance model in OpenRefine, including operation history in `GUI`, `data.txt` file which includes more "complete" operation history, `history folder` which covers provenance information at cell level,all of three parts are incomplete, hard to reproduce and not transparent. 
 
