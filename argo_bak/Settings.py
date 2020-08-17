@@ -11,7 +11,6 @@ __author__ = 'Ahmed'
 ARGO_FILENAME = 'JSON2DB/test/test4/hard.json'
 
 # ARGO_EXTRA_FILENAME = _add_extra_to_name(ARGO_FILENAME)
-ARGO_PICKLE_FILENAME = 'rec_strings_argo'
 
 PSQL_USER = 'postgres'
 RESULTS_FILENAME = 'JSON2DB/test/test4/hard.txt'

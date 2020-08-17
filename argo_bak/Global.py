@@ -1,10 +1,9 @@
-from pymongo import MongoClient
-from JSON2DB.argo import demo_init
+from argo_bak.JSON2DB.argo import demo_init
 import psycopg2
 
 __author__ = 'Gary'
 
-from Settings import PSQL_USER
+from argo_bak.Settings import PSQL_USER
 
 # INIT PSQL Argo Connection
 argo_db = demo_init.get_db()

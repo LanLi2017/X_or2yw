@@ -19,6 +19,7 @@ class Query(object):
         self.prepare()
         start = time.time()
         results = self.db_command()
+        print(results)
         count = 0
         if results:
             for item in results:

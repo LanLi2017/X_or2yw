@@ -17,15 +17,25 @@
 #   You should have received a copy of the GNU General Public License
 #   along with Argo.  If not, see <http://www.gnu.org/licenses/>.
 
-import psycopg2
-import dbms_postgres
-import argodb
+from argo_bak.JSON2DB.argo import demo_init
+import json
 
-# Set to false to use Argo/3, true to use Argo/1.
-USE_ARGO_1 = False
+try:
+    import readline
+except:
+    pass
 
-def get_db():
-    # Edit the line below with your own configuration options.
-    conn = psycopg2.connect("user=postgres dbname=argo")
-    dbms = dbms_postgres.PostgresDBMS(conn)
-    return argodb.ArgoDB(dbms, USE_ARGO_1)
+db = demo_init.get_db()
+
+while True:
+    try:
+        sql_text = input("Argo> ")
+    except EOFError:
+        print("")
+        break
+    try:
+        for item in db.execute_sql(sql_text):
+            print(json.dumps(item))
+        print("DONE")
+    except Exception as e:
+        print("ERROR: " + str(e))
