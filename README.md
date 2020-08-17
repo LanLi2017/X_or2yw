@@ -62,9 +62,9 @@ Options.py                     | command generating hybrid provenance           
 run.bash                       | run and generate hybrid prov into log* folder                                             | 
 Query                          | hand-made Query Function                                                                  |
 Query/request.py               | All of the query functions                                                                | 
-Query/dependency.py            | .R       | 
-Query/Options.py               | .R       |
-Query/run.bash                 | .R       |
+Query/dependency.py            | According to data transformatons in OpenRefine, return the dependencies       | 
+Query/Options.py               | Arguments when run the query     |
+Query/run.bash                 | Query runnable bash file      |
 Query/result{\d}               | Query results       | 
 data                           | Result of the reserved data cleaning query, return the clean dataset |
 mongoDB                        | Using NoSQL to query Hybrid Prov       | 
