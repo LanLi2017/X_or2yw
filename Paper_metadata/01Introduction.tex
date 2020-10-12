@@ -1,0 +1,29 @@
+OpenRefine is a popular data cleaning toolkit that allows users to do data transformations in a browser-based, spreadsheet-like GUI \cite{li2019towards}. Particularly, OpenRefine has a restricted interface to operate data cleaning workflow, combining the operations used in the transformation into a simple history list \cite{delpeuch2019complete}. This operation history provides both prospective and retrospective provenance. For prospective provenance, it collects the operations used in transformations and their arguments, i.e., prospective provenance needs to be captured before execution. Retrospective provenance is captured at runtime, such as the intermediate data produced \cite{murta2014noworkflow}.  
+
+% the weakness of OpenRefine recipe
+However, operation history in OpenRefine is of limited transparency. For operations in OpenRefine, some can change both the table's structure and value (e.g., the operation "Add column based on this column" will create a new column and new values based on the original schema ). The other type of operations will only affect the cell values (e.g., operation "To lowercase" will change cells' values in this column to fit for the pattern). Or2yw toolkit scales dependency on column level, where the former inter-column transformations as rigid transformations, the latter intra-column ones as geometry transformations \cite{nunez2020first}.
+Geometry transformation will "break" the data lineage of the original table. Therefore, it is not easy to trace the lineage from a provenance perspective if there are breakpoints in the processes. Or2yw toolkit could help transpose operation history into the Yesworkflow diagram, helping return each operation's dependency \cite{mcphillips2015yesworkflow}.
+
+Based on previous work, we find the operation history in OpenRefine is not complete at least in two ways: functions missing in operation \textit{Cluster and Edit}; mass cell changes, e.g., uppercase the values in a column, and \textit{Single Cell Edit} are not captured. Regarding the retrospective provenance, reversible functions cover complete information to promise backward compatibility, which irreversible ones need additional provenance information of past values \cite{nunez2020first}.
+
+We observe the workspace in OpenRefine, within which it manages all of the projects \cite{OpenRefine}. All changes to the project's data are supposed to be tracked, where the sub-directory \textit{history} store diffs, actual changes after applying the operation, the sub-directory \textit{data} store column model, processes (i.e., operations and history pairs), and current status of the dataset. The provenance stored in \textit{history} and \textit{data} are neither complete to some extent. For \textit{history}, there is no computational method recorded. For instance, the changes caused by intra-column transformation would be saved as "MassCellChange" in \textit{history}. We do not know what this applied operation is. In \textit{data}, the operation applied would be recorded, while changes at cell level are not recorded. 
+
+As a result, we combine the provenance from change objects and processes by pairing the history entries, where the history entry is the id of every transformation, which is unique. The provenance at \textit{history} is in the text file, hard to trace. To make the hybrid provenance human-readable and easy to query, we transpose the text file into JSON format and concatenate JSON type provenance in \textit{data}. 
+
+We provide eight queries on hybrid provenance, given a cell with a row index and column index, including:
+1. List all of the changes on this cell
+2. List all of the operations applied to this cell
+3. Count how many changes on this cell
+4. Count how many operations applied on this cell
+5. Count how many cells have been changed
+6. List all of the cells which get changed
+7. Reverse the data cleaning task and return the original cell value
+8. List the provenance of this single cell
+
+The first four queries are for distinguishing the "change" and "operation," where operation applies on the whole column, but not all are affected. In this situation, there is no change caused by this cell. 
+
+Query 5 and 6 are to summarize how many efforts are put into this data cleaning task. 
+
+Query 7 is to reverse the whole data cleaning task by this hybrid provenance. By comparing the input original cell value with the result, we could promise this data cleaning task is compatible and trustworthy. 
+
+The last query is to discriminate "provenance" and "changes," where the full provenance of a cell should be the history of the cell changes composed with a history of depending multiple other cells\cite{nunez2020first}. With the help of dependency information by or2yw toolkit, we could return the cell's complete provenance. 

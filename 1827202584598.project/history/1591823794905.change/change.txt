@@ -1,7 +1,0 @@
-3.1
-com.google.refine.model.changes.CellChange
-row=0
-cell=0
-old={"v":"craig@example.com"}
-new={"v":"craig"}
-/ec/

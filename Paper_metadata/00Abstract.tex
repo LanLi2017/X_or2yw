@@ -1,0 +1,37 @@
+% provenance mining , without openrefine server running 
+% reverse data cleaning 
+
+OpenRefine is a powerful data cleaning toolkit, where it promises reproducibility by providing a reusable operation history, a JSON format recipe on GUI. This recipe's provenance information is not complete, transparent, and reusable enough, which brings up reproducibility issues. We finish three tasks in this paper:
+
+1. Or2yw, a bridge between OpenRefine and YesWorkflow, is created by constructing the prospective provenance in OpenRefine recipe into the YesWorkflow diagram. This toolkit helps reveal the dependencies among operations in the recipe by scaling operations of OpenRefine into two types: inter-column and intra-column.
+
+2. X-or2yw, a system that outputs a fine-grained and traceable hybrid provenance by combining the prospective provenance and retrospective provenance from OpenRefine workspace. This hybrid provenance records the computational processes and changes at the cell-level, improving the data cleaning provenance model's transparency and completeness. 
+
+3. We also provide eight queries on hybrid provenance, including a quantitative review of the data cleaning task; output the complete provenance information at cell-level by revealing the dependency relationships; verify the traceability by
+reversing the whole data cleaning task.
+
+In this way, we could promise our data cleaning provenance model is more transparent, complete, and trustworthy. 
+
+
+
+% through parsing project provenance archived from OpenRefine workspace, pairing merges the prospective provenance, from operation history, with retrospective provenance, by presenting actual changes of cells in the archive. 
+% process level/ dependency --> cell 
+% relate previous work --> now 
+% DTA bridge 
+% more high level : logic of or2yw ; throw away technical details
+
+% 
+% replay feature : x-or2yw
+% given history of single cell --> process 
+% 
+
+ % later use DTA to verify/approve this 
+
+% DTA: two kinds of transformation 
+
+% We have constructed a user interface that transforms an OpenRefine recipe into a workflow diagram to make the protocol more transparent and understandable. OpenRefine recipes are ostensibly linear, but there are two levels of operations in OpenRefine, at 1) cell level and 2) schema level. It should be highlighted that when activities happened at the schema level, the structure of the whole workflow might change. In addition, it is hard to follow a lengthy and redundant recipe processes in the recipe. A high-level abstraction is needed to simplify those actions.
+
+% The or2ywtool addresses these problems by automatically transform the original recipe in OpenRefine to a structuralized YesWorkflow model. YesWorkflow is a language-independent tool that can be used to visualize a workflow based on particular annotation and can be used to recover the information from the script. The the workflow model following transformation is more transparent than the JSON recipe. Also, it can provide implicit operation provenance information at both cell level and schema level in OpenRefine.
+
+
+

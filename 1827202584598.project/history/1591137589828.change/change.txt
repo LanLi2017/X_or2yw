@@ -1,7 +1,0 @@
-3.1
-com.google.refine.model.changes.ColumnMoveChange
-columnName=Last name
-oldColumnIndex=4
-newColumnIndex=0
-oldColumnGroupCount=0
-/ec/
