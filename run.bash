@@ -3,4 +3,7 @@
 #python hybrid.py --root_path 1603323347442.project --log log2
 #python hybrid.py --root_path 1827202584598.project --log log3
 #python hybrid.py --root_path DTA.project --log log4
-python hybrid.py --root_path dta_test.project --log log5
+#python hybrid.py --root_path dta_test.project --log log5
+#python hybrid.py --root_path 1723414086076.project --log log6
+
+python hybrid.py --root_path 1827202584598.project --log log8

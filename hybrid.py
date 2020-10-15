@@ -50,28 +50,6 @@ def pair_recipe_history(rootPath, path, log):
             for jsonfile in jsonfiles:
                 index +=1
                 file = json.loads(jsonfile)
-                # try:
-                #     colname = file['operation']['columnName']
-                #
-                # except:
-                #     colname = file['operation']['newColumnName']
-                # else:
-                #     pass
-                # for d in colindx:
-                    # colmodel = json.loads(d)
-                # file['oldColumn']['cellIndex']
-                # operation = file['operation']
-                # if operation['op'] == 'core/column-removal':
-                    # oldCol = json.loads(file['oldColumn'])
-                    # cellIndex = int(oldCol['cellIndex'])
-                    # file.update({'cellindex': cellIndex})
-                    # index should be captured in transpose_chan.txt
-                #     pass
-                # else:
-                #     for d in colindx:
-                #         colmodel = json.loads(d)
-                #         if colmodel['name'] == colname:
-                #             file.update({'cellindex': colmodel['cellIndex']})
                 # pairing
                 historyid = file['id']
                 historypath = f'{rootPath}/history/{historyid}.change/change.txt'
@@ -83,6 +61,7 @@ def pair_recipe_history(rootPath, path, log):
                 head, top, content = data[0], data[1:top_count + 1], data[top_count + 1:]
                 op = func_map[opname](top, content)
                 file.update(op)
+                add_signature(file)
 
                 prov_path = f'{log}/hybrid{index}.json'
                 with open(prov_path, "w") as fout:
@@ -90,7 +69,6 @@ def pair_recipe_history(rootPath, path, log):
 
             idx +=1
         idx += 1
-
     return file
 
 
@@ -152,8 +130,27 @@ def extract_data(data_path):
     # {0: 'Login email', 1: 'Identifier', 4: 'group', 2: 'First name', 3: 'Last name'}
     # remove "removing" column
     dataframe = dataframe.dropna(axis=1, how='all')
+    pprint(dataframe)
     dataframe.columns = [cell[1] for cell in sorted(columnmodel.items())]
     return dataframe
+
+
+def add_signature(datas):
+    ''' row: i, column: j  apply unique signature for each cell
+        s = 2^i * 3^j
+        the history of signature should be history/life of this cell
+    '''
+    sig = dict()
+    for key, value in datas.items():
+        z = re.match(r'^\((\d+), (\d+)\)$', key)
+        if z:
+            row = int(z.group(1))
+            column = int(z.group(2))
+            # calculate unique signature
+            s = pow(2, row) * pow(3, column)
+            sig['signature'] = s
+            value.update(sig)
+    return datas
 
 
 def main():
@@ -162,6 +159,7 @@ def main():
     args = Options.get_args()
 
     rootPath = args.root_path
+    # rootPath = r'1827202584598.project'
     # rootPath = r"1660451457167.project"
 
     # zip history pattern
@@ -180,19 +178,21 @@ def main():
     # print(infiles)
     # log_folder = 'log'
     log_folder = args.log
+    # log_folder = 'log8'
     create_folder(log_folder)
 
     # data pattern
     data_path = f'{rootPath}/data/data.txt'
-    dataframe = extract_data(data_path)
-    savedata = args.data
-    create_folder(savedata)
-    cur_dataname = rootPath.split('.')[0]
-    dataframe.to_csv(f'{savedata}/{cur_dataname}_clean.csv', index=False)
+    # data_path = '1827202584598.project/data/data.txt'
+
+    # dataframe = extract_data(data_path)
+    # savedata = args.data
+    # create_folder(savedata)
+    # cur_dataname = rootPath.split('.')[0]
+    # dataframe.to_csv(f'{savedata}/{cur_dataname}_clean.csv', index=False)
 
     # pairing history and data
     pair_recipe_history(rootPath,data_path, log_folder)
-
     # extract_history(history_path)
 
 
