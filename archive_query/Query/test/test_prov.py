@@ -3,7 +3,7 @@ import json
 import os
 import re
 
-from Query.dependency import OPDependency
+from argo_bak.Query import OPDependency
 
 
 def getvalue(data: str):
@@ -89,7 +89,7 @@ def cell_prov(datas, row, column, res):
 
 
 def main():
-    path = '../../log4/'
+    path = '../../../archive_logs/log4/'
     infiles = sorted(glob.glob(os.path.join(path, '*.json')), key=os.path.getmtime)
     filenames = []
     merge_data = []

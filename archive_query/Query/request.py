@@ -6,11 +6,11 @@ import json
 import os
 import re
 
-import Options
+from archive_query import Options
 import pandas as pd
 
-# from dependency import OPDependency
 from dependency import OPDependency
+# from . import dependency
 
 
 def getvalue(data: str):
@@ -79,7 +79,7 @@ def get_ori_value(curdata, row, column, datas):
         # [('hybrid1', {None: (1, 30)}, {None: (1, 30)}), ('hybrid3', {'old': '', 'new': None}), ('hybrid4', {None: (1, 30)}, {'Lincoln Park Oasis  Unit 2 ONLY': (1, 30)})]
         # back to the first tuple: ('hybrid1', {None: (1, 30)}, {None: (1, 30)})
         first_step = list_changes[0]
-        ori_value = first_step[1].keys()
+        ori_value = list(first_step[1].keys())
         return ori_value
     else:
         return curdata.iat[row,column]
@@ -301,6 +301,7 @@ def main():
         res = count_op_cell(row, column, datas)
     elif return_command == 'reverse-data':
         res = get_ori_value(cur_data,row, column, datas)
+        print(type(res))
     elif return_command == 'list-changed-cells':
         res = list_changed_cells(datas)
     elif return_command == 'count-changed-cells':
@@ -340,6 +341,7 @@ def main():
         elif isinstance(res, dict):
             for r in res.items():
                 file.write(str(r)+'\n')
+
         # json.dump(res, file, indent=2, sort_keys=True)
 
     return res

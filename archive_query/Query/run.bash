@@ -1,3 +1,13 @@
+#python request.py --log log6 --row 2 --column 4 --out result4
+#python request.py  --row 0 --column 0 --log log7 --command prov-single-cell --out result5 --data DTA_clean.csv
+#python request.py --row 1 --column 1 --log log7 --command prov-single-cell --out result5 --data DTA_clean.csv
+#python request.py --row 2 --column 4 --log log7 --command prov-single-cell --out result5 --data DTA_clean.csv
+#python request.py --row 2 --column 4 --log log7 --command merge --out result5 --data DTA_clean.csv
+python request.py --row 1 --column 3 --log log7 --command merge --out result5 --data DTA_clean.csv
+#python request.py --row 1 --column 3 --log log7 --command reverse-data --out result5 --data DTA_clean.csv
+python request.py --row 0 --column 1 --log log7 --command merge --out result5 --data DTA_clean.csv
+
+
 #python request.py --row 1 --column 2 --log log --command operations
 #python request.py --row 1 --column 2 --log log --command changes
 #python request.py --row 0 --column 0 --log log --command operations
@@ -29,5 +39,5 @@
 #python request.py --log log3 --row 0 --column 0 --command operations-single-cell --out result3
 #python request.py --log log3 --row 0 --column 0 --command  count-changes-single-cell --out result3
 #python request.py --log log3 --row 0 --column 0 --command  count-operation-single-cell --out result3
-python request.py --log log4 --row 2 --column 4 --out result4
-python request.py --log log4 --row 2 --column 4 --command changes-single-cell --out result4
+#python request.py --log log4 --row 2 --column 4 --out result4
+#python request.py --log log4 --row 2 --column 4 --command changes-single-cell --out result4

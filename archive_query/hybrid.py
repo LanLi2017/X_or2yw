@@ -2,15 +2,13 @@
 # path
 # id pairing
 import fnmatch
-import glob
 import json
 import os
 import re
 import zipfile
 from pprint import pprint
 
-import Options
-from parse_orhistory import parse_txt
+from archive_query import Options
 from parse_orhistory.parse_txt import func_map, name_map
 import pandas as pd
 

@@ -1,33 +1,45 @@
- CREATE TABLE IF NOT EXISTS dependency(
-                                          history_id integer primary key ,
-                                          step_index integer NOT NULL ,
-                                          column_input text,
-                                          column_output text
-    );  CREATE TABLE IF NOT EXISTS change(
-                                    history_id integer NOT NULL ,
-                                    row_id integer NOT NULL ,
-                                    column_id integer NOT NULL ,
-                                    new_value text,
-                                    old_value text,
-                                    PRIMARY KEY (history_id, row_id, column_id),
-                                    FOREIGN KEY (history_id) REFERENCES dependency (history_id)
-    );
+drop table if exists change;
+drop table if exists transformation;
+drop table if exists dependency;
+drop table if exists transformation_params;
+ CREATE TABLE IF NOT EXISTS change(
+                                        id INTEGER PRIMARY KEY AUTOINCREMENT,
+                                        history_id integer NOT NULL ,
+                                        row_id integer NOT NULL ,
+                                        column_id integer NOT NULL ,
+                                        new_value text,
+                                        old_value text,
+                                        UNIQUE (history_id, row_id, column_id),
+                                        FOREIGN KEY (history_id) REFERENCES transformation (history_id)
+        );
 
-    CREATE TABLE IF NOT EXISTS coretexttransform(
+        CREATE TABLE IF NOT EXISTS transformation(
+                                            history_id integer PRIMARY KEY ,
+                                            step_index integer NOT NULL ,
+                                            op text,
+                                            column_input text,
+                                            column_output text
+
+        );
+
+         INSERT INTO transformation(history_id, step_index,op,column_input, column_output) VALUES(1591902529907,0,"coretexttransform","Login email", "Login email");
+ INSERT INTO transformation(history_id, step_index,op,column_input, column_output) VALUES(1591902621963,1,"coretexttransform","Identifier", "Identifier");
+ INSERT INTO transformation(history_id, step_index,op,column_input, column_output) VALUES(1591902583373,2,"coretexttransform","First name", "First name");
+ INSERT INTO transformation(history_id, step_index,op,column_input, column_output) VALUES(1591902689351,3,"coretexttransform","Last name", "Last name");
+ INSERT INTO transformation(history_id, step_index,op,column_input, column_output) VALUES(1591902466488,4,"corecolumnaddition","", "group");
+CREATE TABLE IF NOT EXISTS coretexttransform(
                           history_id integer primary key,
-                          step_index integer,
                           op text,description text,engineConfig text,columnName text,expression text,onError text,repeat text,repeatCount text,
-                          FOREIGN KEY (history_id) REFERENCES dependency (history_id)
+                          FOREIGN KEY (history_id) REFERENCES transformation (history_id)
             );CREATE TABLE IF NOT EXISTS corecolumnaddition(
                           history_id integer primary key,
-                          step_index integer,
                           op text,description text,engineConfig text,newColumnName text,columnInsertIndex text,baseColumnName text,expression text,onError text,
-                          FOREIGN KEY (history_id) REFERENCES dependency (history_id)
-            );INSERT INTO coretexttransform(history_id, step_index,op, description, engineConfig, columnName, expression, onError, repeat, repeatCount)VALUES (1591902529907,0,'core/text-transform', "Text transform on cells in column Login email using expression grel:value.split('@')[0]", "{'facets': [], 'mode': 'row-based'}", 'Login email', "grel:value.split('@')[0]", 'keep-original', 'False', '10');
-INSERT INTO coretexttransform(history_id, step_index,op, description, engineConfig, columnName, expression, onError, repeat, repeatCount)VALUES (1591902621963,1,'core/text-transform', 'Text transform on cells in column Identifier using expression value.toNumber()', "{'facets': [], 'mode': 'row-based'}", 'Identifier', 'value.toNumber()', 'keep-original', 'False', '10');
-INSERT INTO coretexttransform(history_id, step_index,op, description, engineConfig, columnName, expression, onError, repeat, repeatCount)VALUES (1591902583373,2,'core/text-transform', 'Text transform on cells in column First name using expression value.toUppercase()', "{'facets': [], 'mode': 'row-based'}", 'First name', 'value.toUppercase()', 'keep-original', 'False', '10');
-INSERT INTO coretexttransform(history_id, step_index,op, description, engineConfig, columnName, expression, onError, repeat, repeatCount)VALUES (1591902689351,3,'core/text-transform', 'Text transform on cells in column Last name using expression value.toUppercase()', "{'facets': [], 'mode': 'row-based'}", 'Last name', 'value.toUppercase()', 'keep-original', 'False', '10');
-INSERT INTO corecolumnaddition(history_id, step_index,op, description, engineConfig, newColumnName, columnInsertIndex, baseColumnName, expression, onError)VALUES (1591902466488,4,'core/column-addition', "Create column group at index 2 based on column Identifier using expression grel:if(value>5000,'admin','user')", "{'facets': [], 'mode': 'row-based'}", 'group', '2', 'Identifier', "grel:if(value>5000,'admin','user')", 'set-to-blank');
+                          FOREIGN KEY (history_id) REFERENCES transformation (history_id)
+            );INSERT INTO coretexttransform(history_id,op, description, engineConfig, columnName, expression, onError, repeat, repeatCount)VALUES (1591902529907,'core/text-transform', "Text transform on cells in column Login email using expression grel:value.split('@')[0]", "{'facets': [], 'mode': 'row-based'}", 'Login email', "grel:value.split('@')[0]", 'keep-original', 'False', '10');
+INSERT INTO coretexttransform(history_id,op, description, engineConfig, columnName, expression, onError, repeat, repeatCount)VALUES (1591902621963,'core/text-transform', 'Text transform on cells in column Identifier using expression value.toNumber()', "{'facets': [], 'mode': 'row-based'}", 'Identifier', 'value.toNumber()', 'keep-original', 'False', '10');
+INSERT INTO coretexttransform(history_id,op, description, engineConfig, columnName, expression, onError, repeat, repeatCount)VALUES (1591902583373,'core/text-transform', 'Text transform on cells in column First name using expression value.toUppercase()', "{'facets': [], 'mode': 'row-based'}", 'First name', 'value.toUppercase()', 'keep-original', 'False', '10');
+INSERT INTO coretexttransform(history_id,op, description, engineConfig, columnName, expression, onError, repeat, repeatCount)VALUES (1591902689351,'core/text-transform', 'Text transform on cells in column Last name using expression value.toUppercase()', "{'facets': [], 'mode': 'row-based'}", 'Last name', 'value.toUppercase()', 'keep-original', 'False', '10');
+INSERT INTO corecolumnaddition(history_id,op, description, engineConfig, newColumnName, columnInsertIndex, baseColumnName, expression, onError)VALUES (1591902466488,'core/column-addition', "Create column group at index 2 based on column Identifier using expression grel:if(value>5000,'admin','user')", "{'facets': [], 'mode': 'row-based'}", 'group', '2', 'Identifier', "grel:if(value>5000,'admin','user')", 'set-to-blank');
  INSERT INTO change (history_id, row_id,column_id,new_value, old_value)VALUES(1591902529907,0,0,"laura","laura@example.com"); 
  INSERT INTO change (history_id, row_id,column_id,new_value, old_value)VALUES(1591902529907,1,0,"craig","craig@example.com"); 
  INSERT INTO change (history_id, row_id,column_id,new_value, old_value)VALUES(1591902529907,2,0,"mary","mary@example.com"); 
@@ -44,7 +56,7 @@ INSERT INTO corecolumnaddition(history_id, step_index,op, description, engineCon
  INSERT INTO change (history_id, row_id,column_id,new_value, old_value)VALUES(1591902689351,1,3," JOHNSON"," Johnson"); 
  INSERT INTO change (history_id, row_id,column_id,new_value, old_value)VALUES(1591902689351,2,3," JENKINS"," Jenkins"); 
  INSERT INTO change (history_id, row_id,column_id,new_value, old_value)VALUES(1591902689351,3,3," SMITH"," Smith"); 
- INSERT INTO change (history_id, row_id,column_id,new_value, old_value)VALUES(1591902466488,0,4,"user","None"); 
- INSERT INTO change (history_id, row_id,column_id,new_value, old_value)VALUES(1591902466488,1,4,"user","None"); 
- INSERT INTO change (history_id, row_id,column_id,new_value, old_value)VALUES(1591902466488,2,4,"admin","None"); 
- INSERT INTO change (history_id, row_id,column_id,new_value, old_value)VALUES(1591902466488,3,4,"admin","None"); 
+ INSERT INTO change (history_id, row_id,column_id,new_value, old_value)VALUES(1591902466488,0,4,"user",""); 
+ INSERT INTO change (history_id, row_id,column_id,new_value, old_value)VALUES(1591902466488,1,4,"user",""); 
+ INSERT INTO change (history_id, row_id,column_id,new_value, old_value)VALUES(1591902466488,2,4,"admin",""); 
+ INSERT INTO change (history_id, row_id,column_id,new_value, old_value)VALUES(1591902466488,3,4,"admin",""); 
